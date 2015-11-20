@@ -1,4 +1,11 @@
 <?php
+/**
+* WHCMS6.1.1中文汉化包
+* 根据Star技术论坛制作的5.2版本进行修改
+* By：Fly
+* Blog：www.wingsdream.cn
+* Git：https://github.com/fly3949/WHCMS6.1.1_zh
+*/
 if (!defined("WHMCS")) die("This file cannot be accessed directly");
 $_ADMINLANG['locale'] = "Zh_CN";
 # Global

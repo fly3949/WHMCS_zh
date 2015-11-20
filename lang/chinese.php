@@ -1,23 +1,11 @@
 <?php
 /**
- * WHMCS Language File
- * Chinese (zh_cn)
- *
- * Please Note: These language files are overwritten during software updates
- * and therefore editing of these files directly is not advised. Instead we
- * recommend that you use overrides to customise the text displayed in a way
- * which will be safely preserved through the upgrade process.
- *
- * For instructions on overrides, please visit:
- *   http://docs.whmcs.com/Language_Overrides
- *
- * @package    WHMCS
- * @author     WHMCS Limited <development@whmcs.com>
- * @copyright  Copyright (c) WHMCS Limited 2005-2015
- * @license    http://www.whmcs.com/license/ WHMCS Eula
- * @version    $Id$
- * @link       http://www.whmcs.com/
- */
+* WHCMS6.1.1中文汉化包
+* 根据Star技术论坛制作的5.2版本进行修改
+* By：Fly
+* Blog：www.wingsdream.cn
+* Git：https://github.com/fly3949/WHCMS6.1.1_zh
+*/
 
 if (!defined("WHMCS")) die("This file cannot be accessed directly");
 
