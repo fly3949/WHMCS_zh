@@ -80,7 +80,7 @@ $_LANG['cartconfigoptionsdesc'] = "此产品/服务有一些额外选项，您�
 $_LANG['cartconfigserver'] = "服务器设置";
 $_LANG['cartcustomfieldsdesc'] = "此产品/服务需要您提供一些额外信息，以方便我们处理您的订单。";
 $_LANG['cartdomainsconfig'] = "域名配置";
-$_LANG['cartdomainsconfigdesc'] = "现在您可以设置您购物车中的域名：选择您需要的附加服务、提供所需的信息、并填写域名将要使用的域名服务器。";
+$_LANG['cartdomainsconfigdesc'] = "现在您可以设置您购物车中的域名：选择您需要的附加服务、提供所需的信息、并填写域名将要使用的NS服务器。";
 $_LANG['cartdomainshashosting'] = "有空间";
 $_LANG['cartdomainsnohosting'] = "没有空间！点击添加";
 $_LANG['carteditproductconfig'] = "编辑配置";
@@ -88,7 +88,7 @@ $_LANG['cartempty'] = "您的购物车是空的";
 $_LANG['cartemptyconfirm'] = "您确认清空购物车？";
 $_LANG['cartexistingclientlogin'] = "老用户登录";
 $_LANG['cartexistingclientlogindesc'] = "要添加此订单到您现有的帐户，您需要登陆：";
-$_LANG['cartnameserversdesc'] = "如果您想使用自定义域名服务器，请输入在下方。默认情况下，新的域名将使用我们的域名服务器。";
+$_LANG['cartnameserversdesc'] = "如果您想使用自定义NS服务器，请输入在下方。默认情况下，新的域名将使用我们的NS服务器。";
 $_LANG['cartproductaddons'] = "产品附加服务";
 $_LANG['cartproductaddonschoosepackage'] = "选择方案";
 $_LANG['cartproductaddonsnone'] = "该产品/服务没有可用的附加服务";
@@ -99,7 +99,7 @@ $_LANG['cartproductdomainchoose'] = "选择域名";
 $_LANG['cartproductdomaindesc'] = "您选择的产品/服务需要域名，请将域名填写在下面";
 $_LANG['cartproductdomainuseincart'] = "使用已经在我购物车中的域名";
 $_LANG['cartremove'] = "移除";
-G['cartremoveitemconfirm'] = "您确定从购物车删除此项目？";
+$_LANG['cartremoveitemconfirm'] = "您确定从购物车删除此项目？";
 $_LANG['carttaxupdateselections'] = "税款取决于您选择的国家和地区。当您选择后，点击重新计算";
 $_LANG['carttaxupdateselectionsupdate'] = "更新";
 $_LANG['carttitle'] = "购物车";
@@ -121,7 +121,7 @@ $_LANG['clientareaaddress1'] = "联系地址";
 $_LANG['clientareaaddress2'] = "地址（第二行）";
 $_LANG['clientareabwlimit'] = "流量限制";
 $_LANG['clientareabwusage'] = "已用流量";
-$_LANG['clientareacancel'] = "取消";
+$_LANG['clientareacancel'] = "请求取消产品";
 $_LANG['clientareacancelconfirmation'] = "您的取消请求已经被提交。如果您的这个请求是错误的，请立刻提交一个工单通知我们，否则您的账号可能被删除。";
 $_LANG['clientareacancelinvalid'] = "此帐号已经提交了一个取消请求，所以无法提交另一个取消请求。";
 $_LANG['clientareacancellationendofbillingperiod'] = "账单周期结束";
@@ -198,9 +198,9 @@ $_LANG['clientarealastname'] = "姓";
 $_LANG['clientarealastupdated'] = "最近更新";
 $_LANG['clientarealeaveblank'] = "除非您想修改您的密码，否则请留空。";
 $_LANG['clientareamodifydomaincontactinfo'] = "修改域名联系人信息";
-$_LANG['clientareamodifynameservers'] = "修改域名服务器";
+$_LANG['clientareamodifynameservers'] = "修改NS服务器";
 $_LANG['clientareamodifywhoisinfo'] = "修改WHOIS联系人信息";
-$_LANG['clientareanameserver'] = "域名服务器";
+$_LANG['clientareanameserver'] = "NS服务器";
 $_LANG['clientareanavaddcontact'] = "新增联系人";
 $_LANG['clientareanavchangecc'] = "修改信用卡详细信息";
 $_LANG['clientareanavchangepw'] = "修改密码";
@@ -235,7 +235,7 @@ $_LANG['clientareaterminated'] = "已删除";
 $_LANG['clientareaticktoenable'] = "点击启用";
 $_LANG['clientareatitle'] = "客户中心";
 $_LANG['clientareaunlimited'] = "无限";
-$_LANG['clientareaupdatebutton'] = "更新";
+$_LANG['clientareaupdatebutton'] = "修改个人信息";
 $_LANG['clientareaupdateyourdetails'] = "修改我的帐户资料";
 $_LANG['clientareaused'] = "已使用";
 $_LANG['clientareaviewaddons'] = "查看可用的附加服务";
@@ -306,45 +306,45 @@ $_LANG['domainemailforwarding'] = "Email 转发";
 $_LANG['domainemailforwardingdesc'] = "如果电子邮件转发服务器检测到转发地址无效，我们将停用自动转发记录。请检查转发地址，然后您启用一次。对现有转发的任何更改会耗费最多1小时生效。";
 $_LANG['domainemailforwardingforwardto'] = "转发到";
 $_LANG['domainemailforwardingprefix'] = "前缀";
-$_LANG['domaineppcode'] = "域名转移码";
+$_LANG['domaineppcode'] = "域名转移确认码";
 $_LANG['domaineppcodedesc'] = "这需要从目前的注册商授权";
-$_LANG['domaineppcoderequired'] = "您必须输入域名转移码";
+$_LANG['domaineppcoderequired'] = "您必须输入域名转移确认码";
 $_LANG['domainerror'] = "您的请求中有一个错误:";
 $_LANG['domainerrornodomain'] = "请输入一个有效的域名";
 $_LANG['domainerrortoolong'] = "您输入的域名太长了，不能超过67个字符。";
-$_LANG['domaingeteppcode'] = "领取域名转移码";
-$_LANG['domaingeteppcodeemailconfirmation'] = "域名转移码领取成功！已发送到您注册域名时填写的邮箱.";
-$_LANG['domaingeteppcodeexplanation'] = "域名转移码基本上是一个域名的密码.这是一个安全的措施，确保只有该域名拥有者可以转让域名.您可以通过它把域名转让给另一注册商.";
-$_LANG['domaingeteppcodefailure'] = "领取域名转移码时发生错误：";
-$_LANG['domaingeteppcodeis'] = "您的域名转移码是：";
+$_LANG['domaingeteppcode'] = "领取域名转移确认码";
+$_LANG['domaingeteppcodeemailconfirmation'] = "域名转移确认码领取成功！已发送到您注册域名时填写的邮箱.";
+$_LANG['domaingeteppcodeexplanation'] = "域名转移确认码基本上是一个域名的密码.这是一个安全的措施，确保只有该域名拥有者可以转让域名.您可以通过它把域名转让给另一注册商.";
+$_LANG['domaingeteppcodefailure'] = "领取域名转移确认码时发生错误：";
+$_LANG['domaingeteppcodeis'] = "您的域名转移确认码是：";
 $_LANG['domainidprotection'] = "ID 保护";
 $_LANG['domainintrotext'] = "请输入域名和您想要注册的后缀并且点击查询域名验证一下此域名是否被注册.";
 $_LANG['domainlookupbutton'] = "查询";
 $_LANG['domainmanagementtools'] = "管理工具";
-$_LANG['domainminyears'] = "最少年限";
+$_LANG['domainminyears'] = "最少注册年限";
 $_LANG['domainmoreinfo'] = "更多信息";
 $_LANG['domainname'] = "域名";
-_LANG['domainnameserver1'] = "域名服务器 1";
-$_LANG['domainnameserver2'] = "域名服务器 2";
-$_LANG['domainnameserver3'] = "域名服务器 3";
-$_LANG['domainnameserver4'] = "域名服务器 4";
-$_LANG['domainnameserver5'] = "域名服务器5";
-$_LANG['domainnameservers'] = "域名服务器";
+$_LANG['domainnameserver1'] = "NS服务器 1";
+$_LANG['domainnameserver2'] = "NS服务器 2";
+$_LANG['domainnameserver3'] = "NS服务器 3";
+$_LANG['domainnameserver4'] = "NS服务器 4";
+$_LANG['domainnameserver5'] = "NS服务器5";
+$_LANG['domainnameservers'] = "NS服务器";
 $_LANG['domainordernow'] = "现在订购！";
 $_LANG['domainorderrenew'] = "域名续费";
 $_LANG['domainprice'] = "价格";
-$_LANG['domainregisterns'] = "注册域名服务器";
+$_LANG['domainregisterns'] = "注册NS服务器";
 $_LANG['domainregisternscurrentip'] = "当前IP地址";
-$_LANG['domainregisternsdel'] = "删除域名服务器";
-$_LANG['domainregisternsdelsuccess'] = "成功删除域名服务器";
-$_LANG['domainregisternsexplanation'] = "您可以创建和管理自定义名称的域名服务器（例如：NS1.yourdomain.com，NS2.yourdomain.com……）。";
+$_LANG['domainregisternsdel'] = "删除NS服务器";
+$_LANG['domainregisternsdelsuccess'] = "成功删除NS服务器";
+$_LANG['domainregisternsexplanation'] = "您可以创建和管理自定义名称的NS服务器（例如：NS1.yourdomain.com，NS2.yourdomain.com……）。";
 $_LANG['domainregisternsip'] = "IP地址";
-$_LANG['domainregisternsmod'] = "修改域名服务器IP";
-$_LANG['domainregisternsmodsuccess'] = "成功修改域名服务器IP";
+$_LANG['domainregisternsmod'] = "修改NS服务器IP";
+$_LANG['domainregisternsmodsuccess'] = "成功修改NS服务器IP";
 $_LANG['domainregisternsnewip'] = "新IP地址";
-$_LANG['domainregisternsns'] = "域名服务器";
-$_LANG['domainregisternsreg'] = "注册域名服务器";
-$_LANG['domainregisternsregsuccess'] = "域名服务器成功注册";
+$_LANG['domainregisternsns'] = "NS服务器";
+$_LANG['domainregisternsreg'] = "注册NS服务器";
+$_LANG['domainregisternsregsuccess'] = "NS服务器成功注册";
 $_LANG['domainregistrantchoose'] = "选择您想在这里使用的联系人信息";
 $_LANG['domainregistrantinfo'] = "域名注册人信息";
 $_LANG['domainregistrarlock'] = "域名锁定";
@@ -574,13 +574,13 @@ $_LANG['ordererrordomaininvalid'] = "您输入的域名是无效的";
 $_LANG['ordererrordomainnotld'] = "您必须输入域名后缀";
 $_LANG['ordererrordomainnotregistered'] = "您不能转移一个未注册的域名";
 $_LANG['ordererrordomainregistered'] = "您输入的域名已经被注册";
-$_LANG['ordererrornameserver1'] = "您必须输入域名服务器1";
-$_LANG['ordererrornameserver2'] = "您必须输入域名服务器2";
+$_LANG['ordererrornameserver1'] = "您必须输入NS服务器1";
+$_LANG['ordererrornameserver2'] = "您必须输入NS服务器2";
 $_LANG['ordererrornodomain'] = "您没有输入域名";
 $_LANG['ordererrorpassword'] = "您没有输入密码";
 $_LANG['ordererrorserverhostnameinuse'] = "您输入的名称已经被使用，请重新输入.";
 $_LANG['ordererrorservernohostname'] = "您必须为您的服务器输入名称";
-$_LANG['ordererrorservernonameservers'] = "您必须给两个域名服务器输入前缀";
+$_LANG['ordererrorservernonameservers'] = "您必须给两个NS服务器输入前缀";
 $_LANG['ordererrorservernorootpw'] = "您必须输入root密码";
 $_LANG['ordererrorsubdomaintaken'] = "您输入的二级域名已经被使用，请重试。";
 $_LANG['ordererrortransfersecret'] = "您必须输入域名转移密码";
@@ -633,8 +633,8 @@ $_LANG['orderregperiod'] = "注册周期";
 $_LANG['ordersecure'] = "这个订单可以被安全的使用，以防诈骗，您的目前 IP";
 $_LANG['ordersecure2'] = "已经记录到日志中。";
 $_LANG['orderserverhostname'] = "主机名";
-$_LANG['orderservernameservers'] = "域名服务器";
-$_LANG['orderservernameserversdescription'] = "您在这儿输入的前缀将决定本服务器的默认域名服务器，例如：ns1.yourdomain.com and ns2.yourdomain.com";
+$_LANG['orderservernameservers'] = "NS服务器";
+$_LANG['orderservernameserversdescription'] = "您在这儿输入的前缀将决定本服务器的默认NS服务器，例如：ns1.yourdomain.com and ns2.yourdomain.com";
 $_LANG['orderservernameserversprefix1'] = "前缀1";
 $_LANG['orderservernameserversprefix2'] = "前缀2";
 $_LANG['orderserverrootpassword'] = "root密码";
@@ -835,7 +835,7 @@ $_LANG['clientareafiles'] = "附加的文件";
 $_LANG['clientareafilesdate'] = "日期已添加";
 $_LANG['clientareafilesfilename'] = "文件名";
 
-$_LANG['pwreset'] = "忘记密码重置新密码";
+$_LANG['pwreset'] = "忘记密码/重置新密码";
 $_LANG['pwresetdesc'] = "如果您忘记您的密码，您可以点击这里重置. 当您填写了您注册的email地址 （以及回答您的帐号设置的安全问题），您将会收到关于如何重置您的密码的说明.";
 $_LANG['pwresetemailrequired'] = "您未输入您的Email地址";
 $_LANG['pwresetemailnotfound'] = "您输入的Email地址并不存在于当前的客户中心里";
@@ -1107,8 +1107,8 @@ $_LANG['quantity'] = "数量";
 $_LANG['cartqtyenterquantity'] = "想要超过1本项目在这里输入数量：";
 $_LANG['cartqtyupdate'] = "更新";
 $_LANG['invoiceqtyeach'] = "/每个";
-$_LANG['nschoicedefault'] = "使用默认域名服务器";
-$_LANG['nschoicecustom'] = "使用自定义域名服务器（在下方）";
+$_LANG['nschoicedefault'] = "使用默认NS服务器";
+$_LANG['nschoicecustom'] = "使用自定义NS服务器（请在下方填写）";
 $_LANG['jumpto'] = "跳转到";
 $_LANG['top'] = "顶部";
 
@@ -1245,9 +1245,9 @@ $_LANG['invoicesnoneunpaid'] = "您目前没有未支付的账单";
 
 $_LANG['registerdisablednotice'] = "要注册，请放置一个<strong><a href=\"cart.php\">订单</ A></ STRONG>";
 
-$_LANG['pwstrength'] = "密码强度（请尽量使用复杂密码以提高安全性）";
+$_LANG['pwstrength'] = "密码强度：";
 $_LANG['pwstrengthenter'] = "请输入密码";
-$_LANG['pwstrengthweak'] = "弱（请尽量使用复杂密码以提高安全性）";
+$_LANG['pwstrengthweak'] = "弱【强烈建议使用复杂密码以提高安全性】";
 $_LANG['pwstrengthmoderate'] = "一般（请尽量使用复杂密码以提高安全性）";
 $_LANG['pwstrengthstrong'] = "安全（请您妥善保管您的密码）";
 
@@ -1292,8 +1292,8 @@ $_LANG['domaincheckerbulkinvaliddomain'] = "一个或多个域上面输入是无
 $_LANG['kbquestionsearchere'] = "有问题吗？在这里开始您的搜索。";
 $_LANG['contactus'] = "联系我们";
 
-$_LANG['opennewticket'] = "提交新支持票";
-$_LANG['searchtickets'] = "输入支持票 # 和 主题";
+$_LANG['opennewticket'] = "提交新工单";
+$_LANG['searchtickets'] = "输入工单 # 和 主题";
 $_LANG['supportticketspriority'] = "优先级别";
 $_LANG['supportticketsubmitted'] = "提交";
 $_LANG['supportticketscontact'] = "联系";
@@ -1314,7 +1314,7 @@ $_LANG['affiliatesignupinfo3'] = "如果您想了解更多，请与我们联系�
 
 # Version 5.1
 
-$_LANG['copyright'] = "版权";
+$_LANG['copyright'] = "版权所有";
 $_LANG['allrightsreserved'] = "保留所有权利";
 $_LANG['supportticketsclose'] = "关闭工单";
 $_LANG['affiliatesinitialthen'] = "最初，然后";
@@ -1456,238 +1456,238 @@ $_LANG['disable'] = "关闭";
 $_LANG['manage'] = "管理";
 
 # Version 5.3
-$_LANG['quoteacceptancetitle'] = "Quote Acceptance";
-$_LANG['quoteacceptancehowto'] = "To accept the quote, please confirm your acceptance of our terms of service which can be viewed @";
-$_LANG['quoteacceptancewarning'] = "Please be aware that accepting a quote is considered entering into a contract and you will not be able to cancel once accepted.";
+$_LANG['quoteacceptancetitle'] = "报价验收";
+$_LANG['quoteacceptancehowto'] = "要接受报价，请确认您已阅读过我们的服务条款 @";
+$_LANG['quoteacceptancewarning'] = "请注意：一旦您接受了报价，就无法取消";
 
-$_LANG['contactform'] = "Contact Form";
+$_LANG['contactform'] = "联系表";
 
-$_LANG['twoipverificationstep'] = "Verification Step";
-$_LANG['twoipverificationstepmsg'] = "Enter the security code generated by your mobile authenticator app and we'll make sure it's configured correctly before enabling it.";
-$_LANG['twoipverificationerror'] = "It seem's there's a problem...";
-$_LANG['twoipcodemissmatch'] = "The code you entered did not match what was expected. Please try again.";
-$_LANG['twoiptimebasedpassword'] = "Time-based One-Time Password";
-$_LANG['twoiptimebasedexplain'] = "This authentication option get's it's second factor using a time based algorithm.  Your mobile phone can be used to generate the codes.  If you don't already have an app that can do this, we recommend Google Authenticator which is available for iOS, Android and Windows mobile devices.";
-$_LANG['twoipconfigureapp'] = "To configure your authenticator app:";
-$_LANG['twoipconfigurestep1'] = "Begin by selecting to add a new time based token";
-$_LANG['twoipconfigurestep2'] = "Then use your app to scan the barcode below, or alternatively enter this secret key manually: ";
-$_LANG['twoipgdmissing'] = "GD is missing from the PHP build on your server so unable to generate image";
+$_LANG['twoipverificationstep'] = "验证步骤";
+$_LANG['twoipverificationstepmsg'] = "请输入您的手机身份验证器应用生成的验证码，我们将确保它启用前配置正确。";
+$_LANG['twoipverificationerror'] = "貌似出了个问题...";
+$_LANG['twoipcodemissmatch'] = "你输入的代码不正确，请再试一次";
+$_LANG['twoiptimebasedpassword'] = "一次性密码";
+$_LANG['twoiptimebasedexplain'] = "该验证选项是有时间限制二次认证，您的手机可以用来生成代码。我们建议您使用Google Authenticator——它支持IOS、Android以及其他设备。";
+$_LANG['twoipconfigureapp'] = "要配置身份验证的应用程序：";
+$_LANG['twoipconfigurestep1'] = "通过选择来添加新的一次性验证token";
+$_LANG['twoipconfigurestep2'] = "然后使用你的应用程序来扫描条形码下面，或者手动输入此密钥：";
+$_LANG['twoipgdmissing'] = "GD库没有安装，无法处理图像";
 
-$_LANG['domaincontactdetails']['First Name'] = "First Name";
-$_LANG['domaincontactdetails']['Last Name'] = "Last Name";
-$_LANG['domaincontactdetails']['Full Name'] = "Full Name";
-$_LANG['domaincontactdetails']['Contact Name'] = "Contact Name";
+$_LANG['domaincontactdetails']['First Name'] = "姓";
+$_LANG['domaincontactdetails']['Last Name'] = "名字";
+$_LANG['domaincontactdetails']['Full Name'] = "全名";
+$_LANG['domaincontactdetails']['Contact Name'] = "联系人";
 $_LANG['domaincontactdetails']['Email'] = "Email";
-$_LANG['domaincontactdetails']['Email Address'] = "Email Address";
-$_LANG['domaincontactdetails']['Job Title'] = "Job Title";
-$_LANG['domaincontactdetails']['Company Name'] = "Company Name";
-$_LANG['domaincontactdetails']['Organisation Name'] = "Organisation Name";
-$_LANG['domaincontactdetails']['Address'] = "Address";
-$_LANG['domaincontactdetails']['Street'] = "Street";
-$_LANG['domaincontactdetails']['Address 1'] = "Address 1";
-$_LANG['domaincontactdetails']['Address 2'] = "Address 2";
-$_LANG['domaincontactdetails']['Address 3'] = "Address 3";
-$_LANG['domaincontactdetails']['City'] = "City";
-$_LANG['domaincontactdetails']['State'] = "State";
-$_LANG['domaincontactdetails']['County'] = "County";
-$_LANG['domaincontactdetails']['Region'] = "Region";
-$_LANG['domaincontactdetails']['Postcode'] = "Postcode";
-$_LANG['domaincontactdetails']['ZIP Code'] = "ZIP Code";
-$_LANG['domaincontactdetails']['ZIP'] = "ZIP";
-$_LANG['domaincontactdetails']['Country'] = "Country";
-$_LANG['domaincontactdetails']['Phone'] = "Phone";
-$_LANG['domaincontactdetails']['Phone Number'] = "Phone Number";
-$_LANG['domaincontactdetails']['Fax'] = "Fax";
+$_LANG['domaincontactdetails']['Email Address'] = "Email地址";
+$_LANG['domaincontactdetails']['Job Title'] = "职业";
+$_LANG['domaincontactdetails']['Company Name'] = "公司名称（个人请填写姓名）";
+$_LANG['domaincontactdetails']['Organisation Name'] = "组织名称（个人请填写姓名）";
+$_LANG['domaincontactdetails']['Address'] = "地址";
+$_LANG['domaincontactdetails']['Street'] = "街道";
+$_LANG['domaincontactdetails']['Address 1'] = "地址 1";
+$_LANG['domaincontactdetails']['Address 2'] = "地址 2";
+$_LANG['domaincontactdetails']['Address 3'] = "地址 3";
+$_LANG['domaincontactdetails']['City'] = "城市";
+$_LANG['domaincontactdetails']['State'] = "省份";
+$_LANG['domaincontactdetails']['County'] = "县";
+$_LANG['domaincontactdetails']['Region'] = "区";
+$_LANG['domaincontactdetails']['Postcode'] = "邮编";
+$_LANG['domaincontactdetails']['ZIP Code'] = "邮编";
+$_LANG['domaincontactdetails']['ZIP'] = "邮编";
+$_LANG['domaincontactdetails']['Country'] = "国家";
+$_LANG['domaincontactdetails']['Phone'] = "电话";
+$_LANG['domaincontactdetails']['Phone Number'] = "电话号码";
+$_LANG['domaincontactdetails']['Fax'] = "传真";
 
-$_LANG['serverhostnameexample'] = "eg. server1(.yourdomain.com)";
-$_LANG['serverns1prefixexample'] = "eg. ns1(.yourdomain.com)";
-$_LANG['serverns2prefixexample'] = "eg. ns2(.yourdomain.com)";
+$_LANG['serverhostnameexample'] = "例如： server1(.yourdomain.com)";
+$_LANG['serverns1prefixexample'] = "例如： ns1(.yourdomain.com)";
+$_LANG['serverns2prefixexample'] = "例如： ns2(.yourdomain.com)";
 
-$_LANG['hosting'] = "Hosting";
+$_LANG['hosting'] = "主机";
 
-$_LANG['enomfrregistration']['Heading'] = ".fr domains have different required values depending on your nationality and type of registration:";
-$_LANG['enomfrregistration']['French Individuals']['Name'] = "French Individuals";
-$_LANG['enomfrregistration']['French Individuals']['Requirements'] = "Please provide your \"Birthdate\", \"Birthplace City\", and \"Birthplace Postcode\".";
-$_LANG['enomfrregistration']['EU Non-French Individuals']['Name'] = "EU Non-French Individuals";
-$_LANG['enomfrregistration']['EU Non-French Individuals']['Requirements'] = "Please provide your \"Birthdate\".";
-$_LANG['enomfrregistration']['French Companies']['Name'] = "French Companies";
-$_LANG['enomfrregistration']['French Companies']['Requirements'] = "Please provide the \"Birthdate\", \"Birthplace City\", and \"Birthplace Postcode\" for the owner contact, along with your SIRET number.";
-$_LANG['enomfrregistration']['EU Non-French Companies']['Name'] = "EU Non-French Companies";
-$_LANG['enomfrregistration']['EU Non-French Companies']['Requirements'] = "Please provide the company \"DUNS Number\", and the \"Birthdate\" of the Owner Contact.";
-$_LANG['enomfrregistration']['Non-EU Warning'] = "Client contact information must be within the EU or else registration will fail.";
+$_LANG['enomfrregistration']['Heading'] = ".fr 域名的价格和你的国籍以及注册类型有关";
+$_LANG['enomfrregistration']['French Individuals']['Name'] = "法国的个人";
+$_LANG['enomfrregistration']['French Individuals']['Requirements'] = "请提供你的 \"生日\", \"出生城市\", and \"出生城市的邮编\".";
+$_LANG['enomfrregistration']['EU Non-French Individuals']['Name'] = "欧盟的非法国人";
+$_LANG['enomfrregistration']['EU Non-French Individuals']['Requirements'] = "请提供你的 \"生日\".";
+$_LANG['enomfrregistration']['French Companies']['Name'] = "法国的公司";
+$_LANG['enomfrregistration']['French Companies']['Requirements'] = "请提供公司联系人的 \"创建日期\", \"注册城市\", 和 \"注册城市的邮编\" 和SIRET号码。";
+$_LANG['enomfrregistration']['EU Non-French Companies']['Name'] = "欧盟的非法国公司";
+$_LANG['enomfrregistration']['EU Non-French Companies']['Requirements'] = "请提供公司联系人的 \"DUNS号码\", 和 \"注册城市\".";
+$_LANG['enomfrregistration']['Non-EU Warning'] = "客户联系信息必须是在欧盟内部，否则注册将失败。";
 
-$_LANG['confirm'] = "Confirm";
+$_LANG['confirm'] = "确认";
 
-$_LANG['maxmind_checkconfiguration'] = "An error occurred with the Fraud Check. Please contact support.";
-$_LANG['maxmind_addressinvalid'] = "Your address is not recognised. Please check and re-enter.";
-$_LANG['maxmind_invalidip'] = "IP Address invalid or a local address. Please contact support.";
+$_LANG['maxmind_checkconfiguration'] = "与欺诈检查时发生错误。请联系技术支持。";
+$_LANG['maxmind_addressinvalid'] = "您的地址不被认可，请检查并重新输入。";
+$_LANG['maxmind_invalidip'] = "IP地址无效或为本地地址，请联系技术支持。";
 
-$_LANG['ssounabletologin'] = "Unable to auto-login. Please contact support.";
-$_LANG['ssofatalerror'] = "A fatal error occurred. Please contact support.";
+$_LANG['ssounabletologin'] = "自动登录失败，请联系技术支持。";
+$_LANG['ssofatalerror'] = "发生致命错误，请联系技术支持。";
 
 # Version 6.0
 
-$_LANG['announcementschoosemonth'] = "Choose Month";
-$_LANG['announcementsbymonth'] = "By Month";
-$_LANG['announcementsolder'] = "Older Announcements";
-$_LANG['createnewcontact'] = "New Contact...";
-$_LANG['due'] = "Due";
-$_LANG['affiliatessignups'] = "Signups";
-$_LANG['affiliatesconversionrate'] = "Conversions";
-$_LANG['affiliatesclicks'] = "Clicks";
-$_LANG['contacts'] = "Contacts";
-$_LANG['backtoservicedetails'] = "Back to Service Details";
-$_LANG['invoicesintro'] = "Your invoice history with us";
+$_LANG['announcementschoosemonth'] = "选择月份";
+$_LANG['announcementsbymonth'] = "按月";
+$_LANG['announcementsolder'] = "以往的公告";
+$_LANG['createnewcontact'] = "新联系人";
+$_LANG['due'] = "由于";
+$_LANG['affiliatessignups'] = "注册";
+$_LANG['affiliatesconversionrate'] = "转换";
+$_LANG['affiliatesclicks'] = "点击数";
+$_LANG['contacts'] = "联系人";
+$_LANG['backtoservicedetails'] = "返回服务详情";
+$_LANG['invoicesintro'] = "您与我们的发票的记录";
 
-$_LANG['sidebars']['viewAccount']['yourAccount'] = "Your Account";
-$_LANG['sidebars']['viewAccount']['myDetails'] = "My Details";
-$_LANG['sidebars']['viewAccount']['billingInformation'] = "Billing Information";
-$_LANG['sidebars']['viewAccount']['contacts/subAccounts'] = "Contacts/Sub-Accounts";
-$_LANG['sidebars']['viewAccount']['changePassword'] = "Change Password";
-$_LANG['sidebars']['viewAccount']['securitySettings'] = "Security Settings";
-$_LANG['sidebars']['viewAccount']['emailHistory'] = "Email History";
+$_LANG['sidebars']['viewAccount']['yourAccount'] = "您的账户";
+$_LANG['sidebars']['viewAccount']['myDetails'] = "我的详细信息";
+$_LANG['sidebars']['viewAccount']['billingInformation'] = "支付信息";
+$_LANG['sidebars']['viewAccount']['contacts/subAccounts'] = "联系人/子账户";
+$_LANG['sidebars']['viewAccount']['changePassword'] = "修改密码";
+$_LANG['sidebars']['viewAccount']['securitySettings'] = "安全设定";
+$_LANG['sidebars']['viewAccount']['emailHistory'] = "邮件记录";
 
-$_LANG['aboutsecurityquestions'] = "Why security questions?";
-$_LANG['registersecurityquestionblurb'] = "Setting a security question will provide extra security, as all changes to your account require providing the additional information from your question.";
+$_LANG['aboutsecurityquestions'] = "为什么需要安全问题?";
+$_LANG['registersecurityquestionblurb'] = "设置安全问题将获得更高的安全性，因为账户的更改会需要用到它.";
 
-$_LANG['update'] = "Update";
-$_LANG['yourinfo'] = "Your Info";
-$_LANG['shortcuts'] = "Shortcuts";
+$_LANG['update'] = "编辑";
+$_LANG['yourinfo'] = "您的信息";
+$_LANG['shortcuts'] = "快捷链接";
 
-$_LANG['yourservices'] = "Your Services";
-$_LANG['yourdomains'] = "Your Domains";
-$_LANG['yourtickets'] = "Your Tickets";
-$_LANG['managecontacts'] = "Manage Contacts";
-$_LANG['billingdetails'] = "Billing Details";
-$_LANG['homechooseproductservice'] = "Choose a product/service to manage:";
+$_LANG['yourservices'] = "你的服务";
+$_LANG['yourdomains'] = "你的域名";
+$_LANG['yourtickets'] = "你的工单";
+$_LANG['managecontacts'] = "管理联系人";
+$_LANG['billingdetails'] = "账单明细";
+$_LANG['homechooseproductservice'] = "选择一个产品/服务来管理：";
 
-$_LANG['invoicesdue'] = "Invoices Due";
-$_LANG['invoicesduemsg'] = "You have %s invoices currently unpaid with a total balance of %s";
-$_LANG['noinvoicesduemsg'] = "You have no unpaid invoices at this time.";
+$_LANG['invoicesdue'] = "发票到期";
+$_LANG['invoicesduemsg'] = "你有 %s 个未付款的账单，合计 %s";
+$_LANG['noinvoicesduemsg'] = "你有现在没有未付款的账单。";
 
-$_LANG['expiringsoon'] = "Expiring Soon";
+$_LANG['expiringsoon'] = "即将到期";
 
-$_LANG['notice'] = "Notice";
-$_LANG['networkstatussubtitle'] = "News & Information";
+$_LANG['notice'] = "注意";
+$_LANG['networkstatussubtitle'] = "这里会显示服务器的运行情况";
 
-$_LANG['myaccount'] = "My Account";
+$_LANG['myaccount'] = "我的账户";
 
-$_LANG['manageproduct'] = "Manage Product";
-$_LANG['overview'] = "Overview";
-$_LANG['servername'] = "Server Name";
-$_LANG['visitwebsite'] = "Visit Website";
-$_LANG['whoisinfo'] = "WHOIS Info";
+$_LANG['manageproduct'] = "管理产品";
+$_LANG['overview'] = "总览";
+$_LANG['servername'] = "服务器名";
+$_LANG['visitwebsite'] = "访问网站";
+$_LANG['whoisinfo'] = "WHOIS信息";
 
-$_LANG['tableshowing'] = "Showing _START_ to _END_ of _TOTAL_ entries";
-$_LANG['tableempty'] = "Showing 0 to 0 of 0 entries";
-$_LANG['tablefiltered'] = "(filtered from _MAX_ total entries)";
-$_LANG['tablelength'] = "Show _MENU_ entries";
-$_LANG['tableloading'] = "Loading...";
-$_LANG['tableprocessing'] = "Processing...";
-$_LANG['tablepagesfirst'] = "First";
-$_LANG['tablepageslast'] = "Last";
-$_LANG['tablepagesnext'] = "Next";
-$_LANG['tablepagesprevious'] = "Previous";
-$_LANG['tableviewall'] = "All";
-$_LANG['tableentersearchterm'] = "Enter search term...";
+$_LANG['tableshowing'] = "共有_TOTAL_ 项，正在展示第 _START_ 到 _END_ 项";
+$_LANG['tableempty'] = "无记录";
+$_LANG['tablefiltered'] = "(从 _MAX_ 条中筛选)";
+$_LANG['tablelength'] = "每页显示 _MENU_ 条";
+$_LANG['tableloading'] = "加载中...";
+$_LANG['tableprocessing'] = "处理中...";
+$_LANG['tablepagesfirst'] = "最初的";
+$_LANG['tablepageslast'] = "最后的";
+$_LANG['tablepagesnext'] = "下一页";
+$_LANG['tablepagesprevious'] = "上一页";
+$_LANG['tableviewall'] = "所有";
+$_LANG['tableentersearchterm'] = "输入要搜索的内容...";
 
-$_LANG['actions'] = "Actions";
+$_LANG['actions'] = "操作";
 
-$_LANG['upgradedowngradeshort'] = "Up/Downgrade";
+$_LANG['upgradedowngradeshort'] = "升级/降级";
 
-$_LANG['masspayintro'] = "Pay all these invoices in one step";
-$_LANG['masspaymentselectgateway'] = "Select Mass Payment Gateway";
+$_LANG['masspayintro'] = "一键支付所有订单";
+$_LANG['masspaymentselectgateway'] = "选择支付接口";
 
-$_LANG['ticketfeedbackrequest'] = "Feedback Request";
+$_LANG['ticketfeedbackrequest'] = "提交反馈";
 $_LANG['ticketfeedbackforticket'] = "for Ticket #";
 
-$_LANG['notifications'] = "Notifications";
-$_LANG['notificationsnone'] = "You have no notifications at this time.";
+$_LANG['notifications'] = "通知";
+$_LANG['notificationsnone'] = "目前没有新通知.";
 
 $_LANG['creditcardnonestored'] = "No card on file";
 
-$_LANG['kbviewingarticlestagged'] = "Viewing articles tagged";
+$_LANG['kbviewingarticlestagged'] = "查看文章标签";
 
-$_LANG['domainprivatenameservers'] = "Private Nameservers";
+$_LANG['domainprivatenameservers'] = "私人NS服务器";
 
-$_LANG['transferinadomain'] = "Transfer in a Domain";
+$_LANG['transferinadomain'] = "转移域名";
 
-$_LANG['nodomainextensions'] = "There are no Domain Extensions currently configured for purchase";
+$_LANG['nodomainextensions'] = "目前没有配置域名拓展服务的报价";
 
-$_LANG['homebegin'] = "Begin the search for your perfect domain name...";
-$_LANG['howcanwehelp'] = "How can we help today?";
-$_LANG['exampledomain'] = "eg. yourdomain.com";
-$_LANG['buyadomain'] = "Buy A Domain";
-$_LANG['orderhosting'] = "Order Hosting";
-$_LANG['makepayment'] = "Make Payment";
-$_LANG['getsupport'] = "Get Support";
+$_LANG['homebegin'] = "开始寻找你想要的域名...";
+$_LANG['howcanwehelp'] = "我们能帮到您吗？";
+$_LANG['exampledomain'] = "如： yourdomain.com";
+$_LANG['buyadomain'] = "购买域名";
+$_LANG['orderhosting'] = "购买服务";
+$_LANG['makepayment'] = "创建订单";
+$_LANG['getsupport'] = "请求支持";
 
-$_LANG['news'] = "News";
-$_LANG['allthelatest'] = "All the latest from";
-$_LANG['readmore'] = "Read More";
-$_LANG['noannouncements'] = "No announcements to display";
+$_LANG['news'] = "新闻";
+$_LANG['allthelatest'] = "所有新闻，来自";
+$_LANG['readmore'] = "查看更多";
+$_LANG['noannouncements'] = "没有公告显示";
 
-$_LANG['kbsearchexplain'] = "Have a question? Start your search here.";
-$_LANG['readyforquestions'] = "We're ready and waiting for your questions";
+$_LANG['kbsearchexplain'] = "有问题吗？在这里开始您的搜索。";
+$_LANG['readyforquestions'] = "我们已准备好回答您的问题";
 
-$_LANG['restrictedpage'] = "This page is restricted";
-$_LANG['enteremail'] = "Enter email";
+$_LANG['restrictedpage'] = "该页面是加密的";
+$_LANG['enteremail'] = "输入邮箱";
 
-$_LANG['passwordtips'] = "<strong>Tips for a good password</strong><br />Use both upper and lowercase characters<br />Include at least one symbol (# $ ! % &amp; etc...)<br />Don't use dictionary words";
+$_LANG['passwordtips'] = "<strong>如何设置一个高强度密码：</strong><br />同时使用大小写字符<br />至少使用括一个符号 (# $ ! % &amp; etc...)<br />不要用连续性文本";
 
-$_LANG['regdate'] = "Reg Date";
-$_LANG['nextdue'] = "Next Due";
+$_LANG['regdate'] = "注册日期";
+$_LANG['nextdue'] = "到期时间";
 
-$_LANG['domaincheckertagline'] = "Find the perfect domain name for you...";
-$_LANG['findyourdomain'] = "Find your new domain name";
-$_LANG['searchtermrequired'] = "You must enter a domain name or keyword to look for";
-$_LANG['unabletolookup'] = "Sorry, unable to lookup the term as provided";
-$_LANG['invalidchars'] = "Please remove spaces or special punctuation characters";
-$_LANG['bulkoptions'] = "Bulk Options";
-$_LANG['checkingdomain'] = "Checking if the domain you requested is available...";
-$_LANG['domainsgotocheckout'] = "Go to checkout";
-$_LANG['domainssearchresults'] = "Search Results";
-$_LANG['domainssuggestions'] = "Suggestions";
-$_LANG['domainsothersuggestions'] = "You might also be interested in the following alternative names";
-$_LANG['domainsmoresuggestions'] = "Give me more suggestions!";
-$_LANG['domainssuggestionswarnings'] = "Domain name suggestions may not always be available. Availability is checked in real-time at the point of adding to the cart.";
-$_LANG['disclaimers'] = "Disclaimers";
-$_LANG['tldpricing'] = "TLD Pricing";
-$_LANG['alltldpricing'] = "All TLD Pricing";
+$_LANG['domaincheckertagline'] = "查找属于你的域名...";
+$_LANG['findyourdomain'] = "查找你的新域名";
+$_LANG['searchtermrequired'] = "您必须输入一个域名或关键字来查找";
+$_LANG['unabletolookup'] = "抱歉，无法找到您所提供的信息。";
+$_LANG['invalidchars'] = "请删除空格或特殊标点符号";
+$_LANG['bulkoptions'] = "批量操作";
+$_LANG['checkingdomain'] = "检查您所需要的域名是否可以出售...";
+$_LANG['domainsgotocheckout'] = "结账";
+$_LANG['domainssearchresults'] = "搜索结果";
+$_LANG['domainssuggestions'] = "建议";
+$_LANG['domainsothersuggestions'] = "不妨看看这些域名是否让您满意";
+$_LANG['domainsmoresuggestions'] = "给我更多建议!";
+$_LANG['domainssuggestionswarnings'] = "域名建议并非一直可用。我们会实时检查您添加到购物车里的域名。";
+$_LANG['disclaimers'] = "免责声明";
+$_LANG['tldpricing'] = "顶级域名价格";
+$_LANG['alltldpricing'] = "所有顶级域名的价格";
 
-$_LANG['quotesdesc'] = "Quotes we have generated for you";
+$_LANG['quotesdesc'] = "我们已为您提供报价";
 $_LANG['quotesrejected'] = "Rejected";
 
-$_LANG['ticketsyourhistory'] = "Your ticket history";
+$_LANG['ticketsyourhistory'] = "工单记录";
 
-$_LANG['clientareaemaildesc'] = "Your email history with us";
+$_LANG['clientareaemaildesc'] = "邮件往来记录";
 
-$_LANG['sslconfssl'] = "Configure SSL";
-$_LANG['sslnoconfigurationpossible'] = "Configuration has already been completed!  Please contact support if you are experiencing issues.";
+$_LANG['sslconfssl'] = "配置SSL";
+$_LANG['sslnoconfigurationpossible'] = "配置已经完成！如果您遇到问题请联系技术支持。";
 
-$_LANG['adminloggedin'] = "You are currently logged in as an admin.";
-$_LANG['returntoadminarea'] = "Return to Admin Area";
-$_LANG['adminmasqueradingasclient'] = "You are currently masquerading as a client.";
-$_LANG['logoutandreturntoadminarea'] = "Logout & return to Admin Area";
+$_LANG['adminloggedin'] = "您正在查看用户界面。";
+$_LANG['returntoadminarea'] = "返回到管理界面。";
+$_LANG['adminmasqueradingasclient'] = "您正在查看其他用户的界面。";
+$_LANG['logoutandreturntoadminarea'] = "退出并返回到管理界面。";
 
-$_LANG['supportAndUpdatesExpired'] = "Support & Updates are expired.";
-$_LANG['supportAndUpdatesExpiredLicense'] = "Your Support & Updates period for this license has expired";
-$_LANG['supportAndUpdatesRenewalRequired'] = "Support & Updates access needs to be renewed before you can access this download.";
-$_LANG['supportAndUpdatesClickHereToRenew'] = "Click Here to Renew";
+$_LANG['supportAndUpdatesExpired'] = "支持和更新已过期。";
+$_LANG['supportAndUpdatesExpiredLicense'] = "这个许可证已到期，您的支持与更新期已过";
+$_LANG['supportAndUpdatesRenewalRequired'] = "支持和更新访问需要更新之前，你可以访问此下载。";
+$_LANG['supportAndUpdatesClickHereToRenew'] = "点击这里续订";
 
-$_LANG['pwresetemailneeded'] = "Forgotten your password? Enter your email address below to begin the reset process.";
+$_LANG['pwresetemailneeded'] = "忘记了您的密码？请输入邮箱，我们会发送一封重置密码的邮件。";
 
-$_LANG['quotestageexpired'] = "Expired";
+$_LANG['quotestageexpired'] = "已过期";
 
-$_LANG['ticketinfo'] = "Ticket Information";
-$_LANG['customfield'] = "Custom Fields";
+$_LANG['ticketinfo'] = "工单信息";
+$_LANG['customfield'] = "自定义字段";
 
-$_LANG['domainsActive'] = "Active";
-$_LANG['domainsExpired'] = "Expired";
-$_LANG['domainsCancelled'] = "Cancelled";
-$_LANG['domainsFraud'] = "Fraud";
-$_LANG['domainsPending'] = "Pending";
-$_LANG['domainsPendingTransfer'] = "Pending Transfer";
+$_LANG['domainsActive'] = "激活的";
+$_LANG['domainsExpired'] = "已过期";
+$_LANG['domainsCancelled'] = "被取消";
+$_LANG['domainsFraud'] = "欺诈";
+$_LANG['domainsPending'] = "确认中";
+$_LANG['domainsPendingTransfer'] = "等待转移";
 $_LANG['domainsExpiringInTheNext30Days'] = "Expiring within 30 Days";
 $_LANG['domainsExpiringInTheNext90Days'] = "Expiring within 90 Days";
 $_LANG['domainsExpiringInTheNext180Days'] = "Expiring within 180 Days";
@@ -1698,7 +1698,7 @@ $_LANG['kbtagcloud'] = "Tag Cloud";
 $_LANG['cancellationrequestedexplanation'] = "There is an outstanding cancellation request for this product/service";
 $_LANG['cancellationrequested'] = "Cancellation Requested";
 
-$_LANG['yourrecenttickets'] = "Your Recent Tickets";
+$_LANG['yourrecenttickets'] = "您近期的工单";
 
 $_LANG['domains']['deTermsDescription1'] = "To register a new domain, transfer or change registrant information the registrant must explicitly accept the .DE terms and conditions.";
 $_LANG['domains']['deTermsDescription2'] = "(See full text of .de terms and conditions: http://www.denic.de/en/bedingungen.html.)";
@@ -1725,7 +1725,7 @@ $_LANG['outOfStockProductRemoved'] = "An out of stock product was automatically 
 
 $_LANG['subaccountpermsquotes'] = "View & Accept Quotes";
 
-$_LANG['chooselanguage'] = "Choose language";
+$_LANG['chooselanguage'] = "选择语言";
 
 $_LANG['success'] = "Success";
 $_LANG['error'] = "Error";
@@ -1741,40 +1741,40 @@ $_LANG['quoteacceptcontractwarning'] = "Please be aware that accepting a quote i
 // Client alerts
 $_LANG['clientAlerts']['creditCardExpiring'] = "Your credit card :creditCardType-:creditCardLastFourDigits expires within :days days. Please update it at your earliest convenience.";
 $_LANG['clientAlerts']['domainsExpiringSoon'] = "You have :numberOfDomains domain(s) expiring within the next :days days.";
-$_LANG['clientAlerts']['invoicesUnpaid'] = "You have :numberOfInvoices unpaid invoice(s). Pay them early for peace of mind.";
-$_LANG['clientAlerts']['invoicesOverdue'] = "You have :numberOfInvoices overdue invoice(s) with a total balance due of :balanceDue. Pay them now to avoid any interuptions in service.";
+$_LANG['clientAlerts']['invoicesUnpaid'] = "您目前有 :numberOfInvoices 个未付款的账单，请尽快支付。";
+$_LANG['clientAlerts']['invoicesOverdue'] = "您目前有 :numberOfInvoices 个过期账单，合计 :balanceDue. 请尽快支付，以免服务被取消。";
 $_LANG['clientAlerts']['creditBalance'] = "You have a credit balance of :creditBalance.";
 
 // Client homepage panels
-$_LANG['clientHomePanels']['unpaidInvoices'] = "Unpaid Invoices";
-$_LANG['clientHomePanels']['unpaidInvoicesMsg'] = "You have :numberOfInvoices unpaid invoice(s) with a total balance due of :balanceDue. Pay them early for peace of mind.";
-$_LANG['clientHomePanels']['overdueInvoices'] = "Overdue Invoices";
-$_LANG['clientHomePanels']['overdueInvoicesMsg'] = "You have :numberOfInvoices overdue invoice(s) with a total balance due of :balanceDue. Pay them now to avoid any interruptions in service.";
+$_LANG['clientHomePanels']['unpaidInvoices'] = "未付款的账单";
+$_LANG['clientHomePanels']['unpaidInvoicesMsg'] = "您目前有 :numberOfInvoices 个未付款的账单，合计 :balanceDue. 请尽快支付。";
+$_LANG['clientHomePanels']['overdueInvoices'] = "过期的账单";
+$_LANG['clientHomePanels']['overdueInvoicesMsg'] = "您目前有 :numberOfInvoices 个过期账单，合计 :balanceDue. 请尽快支付，以免服务被取消。";
 $_LANG['clientHomePanels']['domainsExpiringSoon'] = "Domains Expiring Soon";
 $_LANG['clientHomePanels']['domainsExpiringSoonMsg'] = "You have :numberOfDomains domain(s) expiring within the next :days days. Renew them today for peace of mind.";
-$_LANG['clientHomePanels']['activeProductsServices'] = "Your Active Products/Services";
-$_LANG['clientHomePanels']['activeProductsServicesNone'] = "It appears you do not have any products/services with us yet. <a href=\"cart.php\">Place an order to get started</a>.";
-$_LANG['clientHomePanels']['recentNews'] = "Recent News";
-$_LANG['clientHomePanels']['affiliateProgram'] = "Affiliate Program";
-$_LANG['clientHomePanels']['recentSupportTickets'] = "Recent Support Tickets";
-$_LANG['clientHomePanels']['recentSupportTicketsNone'] = "No Recent Tickets Found. If you need any help, please <a href=\"submitticket.php\">open a ticket</a>.";
-$_LANG['clientHomePanels']['affiliateSummary'] = "Your current commission balance is :commissionBalance. You only need another :amountUntilWithdrawalLevel before you can withdraw your earnings.";
+$_LANG['clientHomePanels']['activeProductsServices'] = "您订购的产品";
+$_LANG['clientHomePanels']['activeProductsServicesNone'] = "噢，看来您还没有订购我们的产品呢。 <a href=\"cart.php\">来选一个吧？</a>.";
+$_LANG['clientHomePanels']['recentNews'] = "近期消息";
+$_LANG['clientHomePanels']['affiliateProgram'] = "推广注册";
+$_LANG['clientHomePanels']['recentSupportTickets'] = "最近的工单";
+$_LANG['clientHomePanels']['recentSupportTicketsNone'] = "没有工单。如果您需要帮助，您可以 <a href=\"submitticket.php\">提交一个工单</a>.";
+$_LANG['clientHomePanels']['affiliateSummary'] = "您已经通过推广赚到了 :commissionBalance。您需要再赚 :amountUntilWithdrawalLevel 才能提现。";
 
 $_LANG['upgradeNotPossible'] = "Upgrading this product is not possible.  If you believe you've reached this page in error, please notify our support department.  Otherwise, go back and double check your selection.";
 
-$_LANG['hostingInfo'] = "Hosting Information";
-$_LANG['additionalInfo'] = "Additional Information";
+$_LANG['hostingInfo'] = "产品信息";
+$_LANG['additionalInfo'] = "附加信息";
 $_LANG['resourceUsage'] = "Resource Usage";
 $_LANG['primaryIP'] = "Primary IP";
 $_LANG['assignedIPs'] = "Assigned IPs";
 $_LANG['diskSpace'] = "Disk Space";
 $_LANG['bandwidth'] = "Bandwidth";
 $_LANG['registered'] = "Registered";
-$_LANG['upgrade'] = "Upgrade";
+$_LANG['upgrade'] = "升/降级";
 
-$_LANG['downdoadsdesc'] = "Manuals, programs, and other files";
+$_LANG['downdoadsdesc'] = "您可以在这里下载一些工具";
 
-$_LANG['doToday'] = "What would you like to do today?";
+$_LANG['doToday'] = "想要做些什么？";
 $_LANG['changeDomainNS'] = "Change the nameservers your domain points to";
 $_LANG['updateWhoisContact'] = "Update the WHOIS contact information for your domain";
 $_LANG['changeRegLock'] = "Change the registrar lock status for your domain";
@@ -1782,13 +1782,13 @@ $_LANG['renewYourDomain'] = "Renew Your Domain";
 
 $_LANG['oops'] = "Oops";
 $_LANG['goback'] = "Go Back";
-$_LANG['returnhome'] = "Return Home";
+$_LANG['returnhome'] = "回到主页";
 $_LANG['blankCustomField'] = "(no value)";
 
-$_LANG['viewAll'] = "View All";
-$_LANG['moreDetails'] = "More Details";
+$_LANG['viewAll'] = "查看全部";
+$_LANG['moreDetails'] = "查看详询";
 
-$_LANG['clientHomeSearchKb'] = "Enter a question here to search our knowledgebase for answers...";
+$_LANG['clientHomeSearchKb'] = "在知识库里查找您的问题";
 
 $_LANG['whoisContactWarning'] = "It is important to keep your domain WHOIS contact information up-to-date at all times to avoid losing control of your domain.";
 
@@ -1818,18 +1818,18 @@ $_LANG['genericerror']['msg'] = "Please try again and if the problem persists, p
 
 # Licensing Addon
 
-$_LANG['licensingaddon']['mylicenses'] = "My Licenses";
+$_LANG['licensingaddon']['mylicenses'] = "我的授权";
 $_LANG['licensingaddon']['latestdownload'] = "Latest Download";
-$_LANG['licensingaddon']['downloadnow'] = "Download Now";
-$_LANG['licensingaddon']['licensekey'] = "License Key";
+$_LANG['licensingaddon']['downloadnow'] = "立即下载";
+$_LANG['licensingaddon']['licensekey'] = "授权密钥";
 $_LANG['licensingaddon']['validdomains'] = "Valid Domains";
 $_LANG['licensingaddon']['validips'] = "Valid IPs";
 $_LANG['licensingaddon']['validdirectory'] = "Valid Directory";
-$_LANG['licensingaddon']['status'] = "License Status";
+$_LANG['licensingaddon']['status'] = "授权状态";
 $_LANG['licensingaddon']['reissue'] = "Reissue";
 $_LANG['licensingaddon']['reissuestatusmsg'] = "The Valid Domain, IP and Directory will be detected & saved the next time the license is accessed.";
 
-$_LANG['affiliateWithdrawalSummary'] = "You will be able to request a withdrawal as soon as your balance reaches the minimum required amount of :amountForWithdrawal.";
+$_LANG['affiliateWithdrawalSummary'] = "当累计到 :amountForWithdrawal 时，您可以申请提现";
 
 $_LANG['projectManagement']['activeProjects'] = "Your Active Projects";
 
@@ -1873,7 +1873,7 @@ $_LANG['cPanel']['statusSuspendedNotice'] = "You cannot continue to use or manag
 
 $_LANG['cPanel']['billingOverview'] = "Billing Overview";
 
-$_LANG['liveHelp']['chatNow'] = "Chat Now";
+$_LANG['liveHelp']['chatNow'] = "立即交谈";
 
 $_LANG['quotes'] = "Quotes";
 
@@ -1888,14 +1888,14 @@ $_LANG['clientAreaSecurityTwoFactorAuthRecommendation'] = "We strongly encourage
 $_LANG['clientAreaSecurityNoSecurityQuestions'] = "Setting a security question and answer helps protect your account from unauthorized password resets and allows us to verify your identity when requesting account changes.";
 $_LANG['clientAreaSecuritySecurityQuestionOtherError'] = "The security question helps protect your account from unauthorized password resets and allows us to verify your identity when requesting account changes.";
 
-$_LANG['billingAddress'] = "Billing Address";
+$_LANG['billingAddress'] = "账单地址";
 
 $_LANG['noPasswordResetWhenLoggedIn'] = "You cannot request a password reset when logged in. Please logout to begin.";
 
 $_LANG['unableToLoadShoppingCart'] = "Unable to load your shopping cart. Please contact support.";
 
-$_LANG['showMenu'] = "Show Menu";
-$_LANG['hideMenu'] = "Hide Menu";
+$_LANG['showMenu'] = "显示菜单";
+$_LANG['hideMenu'] = "隐藏菜单";
 
 $_LANG['from'] = "From";
 $_LANG['featuredProduct'] = "Most Popular";
@@ -1905,65 +1905,65 @@ $_LANG['shoppingCartProductPerYear'] = "<span>:price</span>/:countyr";
 $_LANG['orderForm']['findNewDomain'] = "Find your new domain name. Enter your name or keywords below to check availability.";
 $_LANG['orderForm']['transferExistingDomain'] = "Transfer your existing domain names to us and save.";
 $_LANG['orderForm']['www'] = "www.";
-$_LANG['orderForm']['check'] = "Check";
-$_LANG['orderForm']['returnToClientArea'] = "Return to Client Area";
-$_LANG['orderForm']['checkout'] = "Checkout";
-$_LANG['orderForm']['alreadyRegistered'] = "Already Registered?";
-$_LANG['orderForm']['createAccount'] = "Create a New Account";
-$_LANG['orderForm']['enterPersonalDetails'] = "Please enter your personal details and billing information to checkout.";
-$_LANG['orderForm']['correctErrors'] = "Please correct the following errors before continuing";
-$_LANG['orderForm']['existingCustomerLogin'] = "Existing Customer Login";
-$_LANG['orderForm']['emailAddress'] = "Email Address";
-$_LANG['orderForm']['personalInformation'] = "Personal Information";
-$_LANG['orderForm']['firstName'] = "First Name";
-$_LANG['orderForm']['lastName'] = "Last Name";
-$_LANG['orderForm']['phoneNumber'] = "Phone Number";
-$_LANG['orderForm']['billingAddress'] = "Billing Address";
-$_LANG['orderForm']['companyName'] = "Company Name";
-$_LANG['orderForm']['optional'] = "Optional";
-$_LANG['orderForm']['streetAddress'] = "Street Address";
-$_LANG['orderForm']['streetAddress2'] = "Street Address 2";
-$_LANG['orderForm']['city'] = "City";
-$_LANG['orderForm']['state'] = "State";
-$_LANG['orderForm']['postcode'] = "Postcode";
-$_LANG['orderForm']['domainAlternativeContact'] = "You may specify alternative registered contact details for the domain registration(s) in your order when placing an order on behalf of another person or entity. If you do not require this, you can skip this section.";
-$_LANG['orderForm']['accountSecurity'] = "Account Security";
-$_LANG['orderForm']['mediumStrength'] = "Medium Strength";
-$_LANG['orderForm']['paymentDetails'] = "Payment Details";
-$_LANG['orderForm']['preferredPaymentMethod'] = "Please choose your preferred method of payment.";
-$_LANG['orderForm']['cardNumber'] = "Card Number";
-$_LANG['orderForm']['cvv'] = "CVV Security Number";
-$_LANG['orderForm']['additionalNotes'] = "Additional Notes";
-$_LANG['orderForm']['continueToClientArea'] = "Continue To Client Area";
-$_LANG['orderForm']['reviewDomainAndAddons'] = "Please review your domain name selections and any addons that are available for them.";
-$_LANG['orderForm']['addToCart'] = "Add to Cart";
-$_LANG['orderForm']['configureDesiredOptions'] = "Configure your desired options and continue to checkout.";
-$_LANG['orderForm']['haveQuestionsContact'] = "Have questions? Contact our sales team for assistance.";
-$_LANG['orderForm']['use'] = "Use";
-$_LANG['orderForm']['check'] = "Check";
-$_LANG['orderForm']['transfer'] = "Transfer";
-$_LANG['orderForm']['domainAddedToCart'] = "This domain has been added to your cart.";
-$_LANG['orderForm']['registerLongerAndSave'] = "Register for longer and save!";
-$_LANG['orderForm']['tryRegisteringInstead'] = "Try registering this domain instead.";
-$_LANG['orderForm']['domainAvailabilityCached'] = "Domain availability results are cached which may lead to recently registered domains being shown as available.";
-$_LANG['orderForm']['submitTicket'] = "Submit a Ticket";
-$_LANG['orderForm']['promotionAccepted'] = "Promotion Code Accepted! Your order total has been updated.";
-$_LANG['orderForm']['productOptions'] = "Product/Options";
-$_LANG['orderForm']['qty'] = "Qty";
-$_LANG['orderForm']['priceCycle'] = "Price/Cycle";
-$_LANG['orderForm']['edit'] = "Edit";
-$_LANG['orderForm']['update'] = "Update";
-$_LANG['orderForm']['remove'] = "Remove";
-$_LANG['orderForm']['applyPromoCode'] = "Apply Promo Code";
-$_LANG['orderForm']['estimateTaxes'] = "Estimate Taxes";
-$_LANG['orderForm']['removePromotionCode'] = "Remove Promotion Code";
-$_LANG['orderForm']['updateTotals'] = "Update Totals";
-$_LANG['orderForm']['continueShopping'] = "Continue Shopping";
-$_LANG['orderForm']['removeItem'] = "Remove Item";
-$_LANG['orderForm']['yes'] = "Yes";
-$_LANG['orderForm']['cancel'] = "Cancel";
-$_LANG['orderForm']['close'] = "Close";
-$_LANG['orderForm']['totals'] = "Totals";
+$_LANG['orderForm']['check'] = "检查";
+$_LANG['orderForm']['returnToClientArea'] = "返回客户中心";
+$_LANG['orderForm']['checkout'] = "结账";
+$_LANG['orderForm']['alreadyRegistered'] = "老客户请点此登陆";
+$_LANG['orderForm']['createAccount'] = "新建账户";
+$_LANG['orderForm']['enterPersonalDetails'] = "请填写您的个人信息和支付信息。";
+$_LANG['orderForm']['correctErrors'] = "请先检查这些错误";
+$_LANG['orderForm']['existingCustomerLogin'] = "老客户登录";
+$_LANG['orderForm']['emailAddress'] = "Email地址";
+$_LANG['orderForm']['personalInformation'] = "个人信息";
+$_LANG['orderForm']['firstName'] = "名";
+$_LANG['orderForm']['lastName'] = "姓";
+$_LANG['orderForm']['phoneNumber'] = "电话号码";
+$_LANG['orderForm']['billingAddress'] = "账单地址信息";
+$_LANG['orderForm']['companyName'] = "公司名";
+$_LANG['orderForm']['optional'] = "选填";
+$_LANG['orderForm']['streetAddress'] = "街道名";
+$_LANG['orderForm']['streetAddress2'] = "街道名（第2行）";
+$_LANG['orderForm']['city'] = "城市";
+$_LANG['orderForm']['state'] = "省份";
+$_LANG['orderForm']['postcode'] = "邮编";
+$_LANG['orderForm']['domainAlternativeContact'] = "代替其他人或团体下订单时，您可以填写对方的信息。如果不是，请忽略本提示。";
+$_LANG['orderForm']['accountSecurity'] = "安全信息（请您妥善保管您的密码）";
+$_LANG['orderForm']['mediumStrength'] = "中等强度";
+$_LANG['orderForm']['paymentDetails'] = "付款方式";
+$_LANG['orderForm']['preferredPaymentMethod'] = "请选择一种付款方式";
+$_LANG['orderForm']['cardNumber'] = "银行卡号";
+$_LANG['orderForm']['cvv'] = "CVV号码";
+$_LANG['orderForm']['additionalNotes'] = "附加信息";
+$_LANG['orderForm']['continueToClientArea'] = "访问客户中心";
+$_LANG['orderForm']['reviewDomainAndAddons'] = "请检查您选择的域名和可用于它们的插件。";
+$_LANG['orderForm']['addToCart'] = "添加到购物车";
+$_LANG['orderForm']['configureDesiredOptions'] = "配置您想要的选项，并继续结账。";
+$_LANG['orderForm']['haveQuestionsContact'] = "有什么疑问吗？您可以联系我们的客服人员。";
+$_LANG['orderForm']['use'] = "使用";
+$_LANG['orderForm']['check'] = "检查";
+$_LANG['orderForm']['transfer'] = "转移";
+$_LANG['orderForm']['domainAddedToCart'] = "这个域名已添加到您的购物车中。";
+$_LANG['orderForm']['registerLongerAndSave'] = "注册越久，价格越低!";
+$_LANG['orderForm']['tryRegisteringInstead'] = "可以试试注册这个域名来代替";
+$_LANG['orderForm']['domainAvailabilityCached'] = "域名可用性结果是缓存的，这可能会导致最近注册的域名被显示为可用。";
+$_LANG['orderForm']['submitTicket'] = "提交工单";
+$_LANG['orderForm']['promotionAccepted'] = "优惠码验证通过，产品价格已经更新";
+$_LANG['orderForm']['productOptions'] = "产品";
+$_LANG['orderForm']['qty'] = "数量";
+$_LANG['orderForm']['priceCycle'] = "价格";
+$_LANG['orderForm']['edit'] = "编辑";
+$_LANG['orderForm']['update'] = "更新";
+$_LANG['orderForm']['remove'] = "移除";
+$_LANG['orderForm']['applyPromoCode'] = "使用优惠码";
+$_LANG['orderForm']['estimateTaxes'] = "估算税收";
+$_LANG['orderForm']['removePromotionCode'] = "不使用这个优惠码";
+$_LANG['orderForm']['updateTotals'] = "更新总价";
+$_LANG['orderForm']['continueShopping'] = "购买其他服务";
+$_LANG['orderForm']['removeItem'] = "删除项目";
+$_LANG['orderForm']['yes'] = "是";
+$_LANG['orderForm']['cancel'] = "取消";
+$_LANG['orderForm']['close'] = "关闭";
+$_LANG['orderForm']['totals'] = "合计";
 $_LANG['orderForm']['includedWithPlans'] = "Included With Every Plan";
 $_LANG['orderForm']['whatIsIncluded'] = "What is Included?";
 $_LANG['orderForm']['errorNoProductGroup'] = "Could not load any product groups.";
@@ -1981,7 +1981,10 @@ $_LANG['cloudSlider']['feature03DescriptionTwo'] = "A wide range of security too
 
 $_LANG['domainChecker.additionalPricingOptions'] = 'Additional Pricing Options For :domain';
 
-$_LANG['orderpaymenttermfree'] = "Free";
+$_LANG['orderpaymenttermfree'] = "免费";
 
 $_LANG['cPanel']['usageStatsBwOverLimit'] = "You have exceeded your bandwidth limit.";
 $_LANG['cPanel']['usageStatsDiskOverLimit'] = "You have exceeded your disk space limit.";
+
+# Something added by Fly
+$_LANG['navinvoices'] = "账单";
