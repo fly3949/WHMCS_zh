@@ -1,10 +1,12 @@
 <?php
 /**
-* WHCMS6.1.1中文汉化包
-* 根据Star技术论坛制作的5.2版本进行修改
-* By：Fly
-* Blog：www.wingsdream.cn
-* Git：https://github.com/fly3949/WHCMS6.1.1_zh
+ * WHMCS 语言文件
+ * 中文 (zh_cn)
+ *
+ * @author     Fly
+ * @author     Bill
+ * @link       https://github.com/fly3949/WHMCS6.1.1_zh
+ * @link       https://github.com/billzhong/whmcs_lang_chinese
 */
 
 if (!defined("WHMCS")) die("This file cannot be accessed directly");
@@ -59,7 +61,6 @@ $_LANG['bannedbanexpires'] = "禁止失效";
 $_LANG['bannedbanreason'] = "禁止原因";
 $_LANG['bannedhasbeenbanned'] = "已经被禁止";
 $_LANG['bannedtitle'] = "IP被禁止";
-$_LANG['bannedyourip'] = "Your IP";
 $_LANG['bannedyourip'] = "您的IP";
 $_LANG['cartaddons'] = "附加服务";
 $_LANG['cartbrowse'] = "查看产品与服务";
@@ -237,7 +238,7 @@ $_LANG['clientregisterverifyinvalid'] = "验证码错误";
 $_LANG['closewindow'] = "关闭窗口";
 $_LANG['completeorder'] = "完成订购";
 $_LANG['confirmnewpassword'] = "确认新密码";
-$_LANG['contactemail'] = "Email";
+$_LANG['contactemail'] = "Email地址";
 $_LANG['contacterrormessage'] = "您没有输入信息内容";
 $_LANG['contacterrorname'] = "您没有输入名字";
 $_LANG['contacterrorsubject'] = "您没有输入主题";
@@ -269,7 +270,6 @@ $_LANG['creditcardinvalid'] = "您所输入的信用卡是无效的，请输入�
 $_LANG['creditcardnumberinvalid'] = "您输入的信用卡号无效";
 $_LANG['creditcardsecuritynotice'] = "您在此处提交的所有数据都将被安全的加密以减少诈骗的风险";
 $_LANG['creditcarduseexisting'] = "使用现有的信用卡";
-$_LANG['creditcardyourinfo'] = "您的信息";
 $_LANG['customfieldvalidationerror'] = "值无效";
 $_LANG['days'] = "天数";
 $_LANG['defaultbillingcontact'] = "默认账单联系人";
@@ -835,7 +835,6 @@ $_LANG['pwresetvalidationcheckemail'] = "密码正在重置。下一步请检查
 $_LANG['pwresetkeyinvalid'] = "您所点击的重置链接是无效的.请重试！";
 $_LANG['pwresetkeyexpired'] = "您所点击的重置链接已过期.请重试！";
 $_LANG['pwresetvalidationsuccess'] = "重置密码成功";
-$_LANG['pwresetvalidationsuccessdesc'] = "您的密码已经被重置，新的登录密码已经发送邮件给您.";
 
 $_LANG['overagescharges'] = "超限费用";
 $_LANG['overagestotaldiskusage'] = "总硬盘使用量";
@@ -857,11 +856,11 @@ $_LANG['invoicepaymentsuccessconfirmation'] = "谢谢! 您已经付款成功!";
 $_LANG['invoicepaymentfailedconfirmation'] = "很不幸您的付款并没有成功。<br />请再试一次或者联系我们。";
 
 # Version 4.2
-# Version 4.2
 
 $_LANG['promoappliedbutnodiscount'] = "您输入的优惠码已使用，但没有任何产品适用于此优惠码--请检查优惠条款。";
 
 $_LANG['upgradeerroroverdueinvoice'] = "您无法升级/降级此产品，因为续费账单已经生成。<br /><br />如需继续，请先支付续费账单，一旦账单支付，您将立刻可以升级或降级产品并支付或退回差额。";
+$_LANG['upgradeexistingupgradeinvoice'] = "您无法升级/降级此产品，因为已经有一个升级/降级在进行中<br /><br />如需继续，请先支付续费账单。一旦账单支付，您将立刻可以升级或降级产品并支付或退回差额。<br/><br/>如果您认为不该收到这条信息，请提交工单与我们联系。";
 
 $_LANG['subaccountactivate'] = "开通子账户";
 $_LANG['subaccountactivatedesc'] = "设置子账户访问权限";
@@ -1035,7 +1034,6 @@ $_LANG['invoicesubscriptionpayment'] = "创建自动续费订阅";
 
 $_LANG['invoicepaymentpendingreview'] = "你的付款已经成功，我们会尽快的审核然后自动应用到你的订单，2CheckOut检查已完成。";
 
-$_LANG['invoiceqtyeach'] = "/ea";
 $_LANG['step'] = "步骤%s";
 $_LANG['cartdomainexists'] = "此域名已经存在于我们的数据库";
 $_LANG['cartcongratsdomainavailable'] = "恭喜，%s 可以注册！";
@@ -1133,8 +1131,9 @@ $_LANG['domainmassrenew'] = "续费域名";
 # reCAPTCHA
 
 $_LANG['captchatitle'] = "验证";
-$_LANG['captchaverify'] = "请输入以下图片中的英文字母，该验证用于防止恶意注册.";
-$_LANG['captchaverifyincorrect'] = "验证码有误，请重新输入.";
+$_LANG['captchaverify'] = "请输入以下图片中的英文字母，该验证用于防止恶意注册。";
+$_LANG['captchaverifyincorrect'] = "验证码有误，请重新输入。";
+$_LANG['googleRecaptchaIncorrect'] = "请输入验证码重试。";
 $_LANG['recaptcha-invalid-site-private-key'] = "发生错误，请联系支持（错误代码：CAP1）";
 $_LANG['recaptcha-invalid-request-cookie'] = "发生错误，请重试（错误代码：CAP2）";
 $_LANG['recaptcha-incorrect-captcha-sol'] = "验证码有误，请重新输入";
@@ -1163,12 +1162,14 @@ $_LANG['bundlewarningdomainaddon'] = "选定的捆绑，要求您选择域%s资�
 
 $_LANG['navservices'] = "服务";
 $_LANG['navservicesorder'] = "购买新服务";
+$_LANG['navservicesplaceorder'] = "购买一个新服务";
 $_LANG['navdomains'] = "域名";
 $_LANG['navrenewdomains'] = "域名续费";
 $_LANG['navregisterdomain'] = "注册新域名";
 $_LANG['navtransferdomain'] = "域名转移";
-$_LANG['navwhoislookup'] = "Whois查询";
+$_LANG['navdomainsearch'] = "域名查询";
 $_LANG['navbilling'] = "财务管理";
+$_LANG['navinvoices'] = "账单";
 $_LANG['navsupport'] = "技术支持";
 $_LANG['navtickets'] = "工单";
 $_LANG['navopenticket'] = "提交工单";
@@ -1176,6 +1177,7 @@ $_LANG['navmanagecc'] = "管理信用卡";
 $_LANG['navemailssent'] = "邮件存档";
 
 $_LANG['hello'] = "您好";
+$_LANG['helloname'] = "您好，%s！";
 $_LANG['account'] = "账户管理";
 $_LANG['login'] = "客户登录";
 $_LANG['register'] = "注册账户";
@@ -1225,15 +1227,16 @@ $_LANG['ccexpiringsoon'] = "信用卡即将到期";
 $_LANG['ccexpiringsoondesc'] = "您的信用卡即将到期，所以请确保你%supdate与我们您的信用卡细节％时，您可以";
 $_LANG['availcreditbal'] = "可用余额";
 $_LANG['availcreditbaldesc'] = "您的账户余额还有 %s 可用于购买或续费空间与域名";
-$_LANG['overdueinvoices'] = "过期发票(s)";
-$_LANG['youhaveoverdueinvoices'] = "您有 %s 的逾期发票";
+$_LANG['youhaveoverdueinvoices'] = "您有 %s 的过期发票";
 $_LANG['overdueinvoicesdesc'] = "为了避免服务中断，请尽快支付您的未付发票。";
 $_LANG['supportticketsnoneopen'] = "您目前没有正在处理的工单";
 $_LANG['invoicesnoneunpaid'] = "您目前没有未支付的账单";
 
-$_LANG['registerdisablednotice'] = "要注册，请放置一个<strong><a href=\"cart.php\">订单</ A></ STRONG>";
+$_LANG['registerdisablednotice'] = "要注册，请放置一个<strong><a href=\"cart.php\">订单</a></strong>";
+$_LANG['registerCreateAccount'] = "创建账户，请";
+$_LANG['registerCreateAccountOrder'] = "在我们这里下单";
 
-$_LANG['pwstrength'] = "密码强度：";
+$_LANG['pwstrength'] = "密码强度";
 $_LANG['pwstrengthenter'] = "请输入密码";
 $_LANG['pwstrengthweak'] = "弱【强烈建议使用复杂密码以提高安全性】";
 $_LANG['pwstrengthmoderate'] = "一般（请尽量使用复杂密码以提高安全性）";
@@ -1346,17 +1349,7 @@ $_LANG['billableitemshours'] = "小时";
 $_LANG['billableitemshour'] = "小时";
 
 $_LANG['invoicefilename'] = "发票-";
-$_LANG['quotefilename'] = "引用-";
-
-# Licensing Addon
-
-$_LANG['licensingkey'] = "许可证密钥";
-$_LANG['licensingvaliddomains'] = "有效的域";
-$_LANG['licensingvalidips'] = "有效的IP";
-$_LANG['licensingvaliddirectory'] = "有效的目录";
-$_LANG['licensingstatus'] = "授权状态";
-$_LANG['licensingreissue'] = "补发许可证";
-$_LANG['licensingreissued'] = "有效的域名，IP地址和目录，将检测和保存在下一次使用许可证。";
+$_LANG['quotefilename'] = "报价-";
 
 # Domain Addons
 
@@ -1372,6 +1365,7 @@ $_LANG['domainaddonscancelareyousure'] = "你确定要禁用及取消该域名�
 $_LANG['domainaddonsconfirm'] = "确认取消";
 $_LANG['domainaddonscancelsuccess'] = "插件已成功停用!";
 $_LANG['domainaddonscancelfailed'] = "无法停用插件。请联系技术支持.";
+
 # Version 5.2
 
 $_LANG['yourclientareahostingaddons'] = "本产品具有以下插件t.";
@@ -1429,7 +1423,9 @@ $_LANG['twofaactivationerror'] = "尝试启动时发生错误".$_LANG['twofactor
 $_LANG['twofamoduleerror'] = "加载模块时发生错误。请再试一次.";
 $_LANG['twofaactivationcomplete'] = $_LANG['twofactorauth']." 安装完成!";
 $_LANG['twofadisableconfirmation'] = $_LANG['twofactorauth']." 您的帐户目前已被禁用.";
+$_LANG['twofadisableconfirmation'] = "该账户的二次认证已经停用。";
 $_LANG['twofabackupcodeis'] = "您的备份代码";
+$_LANG['twofanewbackupcodeis'] = "您的新的备份代码是";
 $_LANG['twofabackupcodeexpl'] = "在纸上写下来，并保证它的安全。<br/>这将是需要的，如果你曾经失去你的第二个因素的设备，或者是您无法使用.";
 $_LANG['twofaconfirmpw'] = "输入您的密码";
 $_LANG['twofa2ndfactorreq'] = "您需要进行二次认证";
@@ -1587,12 +1583,12 @@ $_LANG['masspayintro'] = "一键支付所有订单";
 $_LANG['masspaymentselectgateway'] = "选择支付接口";
 
 $_LANG['ticketfeedbackrequest'] = "提交反馈";
-$_LANG['ticketfeedbackforticket'] = "for Ticket #";
+$_LANG['ticketfeedbackforticket'] = "给工单 #";
 
 $_LANG['notifications'] = "通知";
 $_LANG['notificationsnone'] = "目前没有新通知.";
 
-$_LANG['creditcardnonestored'] = "No card on file";
+$_LANG['creditcardnonestored'] = "没有信用卡记录";
 
 $_LANG['kbviewingarticlestagged'] = "查看文章标签";
 
@@ -1644,7 +1640,7 @@ $_LANG['tldpricing'] = "顶级域名价格";
 $_LANG['alltldpricing'] = "所有顶级域名的价格";
 
 $_LANG['quotesdesc'] = "我们已为您提供报价";
-$_LANG['quotesrejected'] = "Rejected";
+$_LANG['quotesrejected'] = "拒绝";
 
 $_LANG['ticketsyourhistory'] = "工单记录";
 
@@ -1973,6 +1969,3 @@ $_LANG['orderpaymenttermfree'] = "免费";
 
 $_LANG['cPanel']['usageStatsBwOverLimit'] = "You have exceeded your bandwidth limit.";
 $_LANG['cPanel']['usageStatsDiskOverLimit'] = "You have exceeded your disk space limit.";
-
-# Something added by Fly
-$_LANG['navinvoices'] = "账单";
