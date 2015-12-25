@@ -363,7 +363,10 @@ $_LANG['domaintld'] = "域名后缀";
 $_LANG['domaintransfer'] = "域名转移";
 $_LANG['domainunavailable'] = "已经被注册";
 $_LANG['domainunavailable1'] = "对不起！";
-$_LANG['domainunavailable2'] = "已经被使用！";
+$_LANG['domainunavailable2'] = "已经被注册！";
+$_LANG['domainreserved'] = "已经被保留";
+$_LANG['domainreserved1'] = "域名";
+$_LANG['domainreserved2'] = "未被注册，但被保留。";
 $_LANG['domainviewwhois'] = "查看whois信息";
 $_LANG['downloaddescription'] = "描述";
 $_LANG['downloadloginrequired'] = "访问被拒绝--您必须登录才能下载此文件";
@@ -437,6 +440,7 @@ $_LANG['invoicestransgateway'] = "网关";
 $_LANG['invoicestransid'] = "交易编号";
 $_LANG['invoicestransnonefound'] = "没有发现相关交易";
 $_LANG['invoicesunpaid'] = "未付款";
+$_LANG['invoicesdraft'] = "草稿";
 $_LANG['invoicesview'] = "查看账单";
 $_LANG['jobtitle'] = "职称（头衔）";
 $_LANG['kbsuggestions'] = "知识库";
@@ -658,6 +662,7 @@ $_LANG['proformainvoicenumber'] = "形式账单编号";
 $_LANG['promoexistingclient'] = "您必须有至少一个激活的产品/服务才能使用此优惠码";
 $_LANG['promoonceperclient'] = "此优惠码每位客户只能使用一次";
 $_LANG['pwstrengthfail'] = "您输入的密码过于简单 - 请输入一个更复杂的密码";
+$_LANG['pwdoesnotmatch'] = "密码不匹配";
 $_LANG['quicknav'] = "快速导航";
 $_LANG['recordsfound'] = "记录";
 $_LANG['recurring'] = "续约";
@@ -739,8 +744,8 @@ $_LANG['supportticketserrornoemail'] = "您没有填写您的Email";
 $_LANG['supportticketserrornomessage'] = "您没有填写内容";
 $_LANG['supportticketserrornoname'] = "您没有填写姓名";
 $_LANG['supportticketserrornosubject'] = "您没有填写主题";
-$_LANG['supportticketsfilenotallowed'] = "您试图上传的文件不被允许.";
-$_LANG['supportticketsheader'] = "您可以在此提交您遇到的问题，客服人员在收到后会尽快回答。<br/><br/><b>使用说明：</b><br/>1.请先阅读帮助中心，并合理使用搜索引擎，您的问题也许很普遍，已经在网上被回答了很多次，直接找到答案会更加节省您的时间。<br/>2.请选择正确的部门提交您的问题，每个部门所处理的具体事项在部门名称后有具体说明。<br/>3.各部门的工作时间为每天9:00-23：00。<br/><br/><b>服务承诺：</b><br/>您在工作时间内提交的问题，将在6小时内答复，24小时内解决。非工作时间提交的问题，由值班人员尽快答复。<br/><br/><b>请在此选择受理您提问的部门：</b><br/>.";
+$_LANG['supportticketsfilenotallowed'] = "您试图上传的文件类型不被允许。";
+$_LANG['supportticketsheader'] = "如果您无法自己找到答案，可以在这里提交工单到以下合适的部门。";
 $_LANG['supportticketsnotfound'] = "未找到工单";
 $_LANG['supportticketsopentickets'] = "打开工单";
 $_LANG['supportticketspagetitle'] = "工单";
@@ -757,10 +762,10 @@ $_LANG['supportticketsstatusonhold'] = "请稍后";
 $_LANG['supportticketsstatusopen'] = "开启";
 $_LANG['supportticketssubject'] = "主题";
 $_LANG['supportticketssubmitticket'] = "提交工单";
-$_LANG['supportticketssystemdescription'] = "工单系统能够让我们很快的响应您的问题.当我们回复您的工单时，您将收到一封电子邮件通知.";
+$_LANG['supportticketssystemdescription'] = "工单系统能够让我们很快的响应您的问题。当我们回复您的工单时，您将收到一封电子邮件通知。";
 $_LANG['supportticketsticketattachments'] = "附件";
 $_LANG['supportticketsticketcreated'] = "工单已创建";
-$_LANG['supportticketsticketcreateddesc'] = "您的工单成功创建.一封关于工单信息的电子邮件已经发送给您。您现在就可以去查看这个工单.";
+$_LANG['supportticketsticketcreateddesc'] = "您的工单成功创建。一封关于工单信息的电子邮件已经发送给您。您现在就可以去查看这个工单。";
 $_LANG['supportticketsticketid'] = "工单编号";
 $_LANG['supportticketsticketsubject'] = "主题";
 $_LANG['supportticketsticketsubmit'] = "提交";
@@ -879,11 +884,12 @@ $_LANG['subaccountpermsorders'] = "产品订购/产品升级/产品取消";
 $_LANG['subaccountpermissiondenied'] = "您没权限查看这个页面";
 $_LANG['subaccountallowedperms'] = "您批准的权限为:";
 $_LANG['subaccountcontactmaster'] = "请联系管理员。";
+$_LANG['subaccountSsoDenied'] = "您无法使用单点登入系统。";
 
 $_LANG['knowledgebasealsoread'] = "建议阅读";
 
 $_LANG['orderpaymenttermtriennially'] = "三年";
-$_LANG['orderpaymentterm36month'] = "36月价格";
+$_LANG['orderpaymentterm36month'] = "36个月价格";
 
 $_LANG['domainrenewals'] = "域名续费";
 $_LANG['domaindaysuntilexpiry'] = "到期";
@@ -1274,7 +1280,10 @@ $_LANG['creditcardexpirydateinvalid'] = "到期日必须输入格式MM / YY，�
 $_LANG['domaincheckerchoosedomain'] = "选择您的域名...";
 $_LANG['domaincheckerchecknewdomain'] = "查询域名是否被注册";
 $_LANG['domaincheckerdomainexample'] = "例如：Yourdomain.com";
-$_LANG['domaincheckerinvalidtld'] = "我们没有提供该后缀域名的注册服务，请尝试其他后缀.";
+$_LANG['domaincheckerinvalidtld'] = "我们没有提供该后缀域名的注册服务，请尝试其他后缀。";
+$_LANG['domaincheckerinvalidtld2'] = "后缀无效。";
+$_LANG['domaincheckerinvaliddomain'] = "请求的域名无效。";
+$_LANG['domaincheckernopricing'] = "该后缀价格不可用。";
 $_LANG['domaincheckerhostingonly'] = "前往购买服务";
 $_LANG['domaincheckeravailtransfer'] = "可以转入";
 $_LANG['domaincheckerenterdomain'] = "输入域名开始订购相关服务，注册、转移一个域名或者只是订购一个虚拟主机...";
@@ -1672,10 +1681,10 @@ $_LANG['domainsCancelled'] = "被取消";
 $_LANG['domainsFraud'] = "欺诈";
 $_LANG['domainsPending'] = "确认中";
 $_LANG['domainsPendingTransfer'] = "等待转移";
-$_LANG['domainsExpiringInTheNext30Days'] = "Expiring within 30 Days";
-$_LANG['domainsExpiringInTheNext90Days'] = "Expiring within 90 Days";
-$_LANG['domainsExpiringInTheNext180Days'] = "Expiring within 180 Days";
-$_LANG['domainsExpiringInMoreThan180Days'] = "Expiring in 180+ Days";
+$_LANG['domainsExpiringInTheNext30Days'] = "30 天内过期";
+$_LANG['domainsExpiringInTheNext90Days'] = "90 天内过期";
+$_LANG['domainsExpiringInTheNext180Days'] = "180 天内过期";
+$_LANG['domainsExpiringInMoreThan180Days'] = "180 天以上过期";
 
 $_LANG['kbtagcloud'] = "Tag Cloud";
 
@@ -1812,6 +1821,7 @@ $_LANG['licensingaddon']['validdirectory'] = "Valid Directory";
 $_LANG['licensingaddon']['status'] = "授权状态";
 $_LANG['licensingaddon']['reissue'] = "Reissue";
 $_LANG['licensingaddon']['reissuestatusmsg'] = "The Valid Domain, IP and Directory will be detected & saved the next time the license is accessed.";
+$_LANG['licensingaddon']['manageLicense'] = "Manage License";
 
 $_LANG['affiliateWithdrawalSummary'] = "当累计到 :amountForWithdrawal 时，您可以申请提现";
 
@@ -1909,6 +1919,7 @@ $_LANG['orderForm']['streetAddress'] = "街道名";
 $_LANG['orderForm']['streetAddress2'] = "街道名（第2行）";
 $_LANG['orderForm']['city'] = "城市";
 $_LANG['orderForm']['state'] = "省份";
+$_LANG['orderForm']['country'] = "国家";
 $_LANG['orderForm']['postcode'] = "邮编";
 $_LANG['orderForm']['domainAlternativeContact'] = "代替其他人或团体下订单时，您可以填写对方的信息。如果不是，请忽略本提示。";
 $_LANG['orderForm']['accountSecurity'] = "安全信息（请您妥善保管您的密码）";
@@ -1921,6 +1932,7 @@ $_LANG['orderForm']['additionalNotes'] = "附加信息";
 $_LANG['orderForm']['continueToClientArea'] = "访问客户中心";
 $_LANG['orderForm']['reviewDomainAndAddons'] = "请检查您选择的域名和可用于它们的插件。";
 $_LANG['orderForm']['addToCart'] = "添加到购物车";
+$_LANG['orderForm']['addedToCartRemove'] = "已经添加购物车（删除）";
 $_LANG['orderForm']['configureDesiredOptions'] = "配置您想要的选项，并继续结账。";
 $_LANG['orderForm']['haveQuestionsContact'] = "有什么疑问吗？您可以联系我们的客服人员。";
 $_LANG['orderForm']['use'] = "使用";
@@ -1969,3 +1981,25 @@ $_LANG['orderpaymenttermfree'] = "免费";
 
 $_LANG['cPanel']['usageStatsBwOverLimit'] = "You have exceeded your bandwidth limit.";
 $_LANG['cPanel']['usageStatsDiskOverLimit'] = "You have exceeded your disk space limit.";
+
+$_LANG['insufficientstockmessage'] = "部分产品库存较低。添加到购物车的产品数量已经被调整。";
+
+$_LANG['only'] = "只";
+$_LANG['startingat'] = "开始于";
+
+$_LANG['yourdomainplaceholder'] = 'yourdomain';
+$_LANG['yourtldplaceholder'] = 'com';
+
+$_LANG['subaccountpermsproductsso'] = "Perform Single Sign-On";
+
+$_LANG['sso']['title'] = "Single Sign-On";
+$_LANG['sso']['summary'] = "Third party applications leverage the Single Sign-On functionality to provide direct access to your billing account without you having to re-authenticate.";
+$_LANG['sso']['disablenotice'] = "You may wish to disable this functionality if you provide access to any of your third party applications to users who you do not wish to be able to access your billing account.";
+$_LANG['sso']['enabled'] = "Single Sign-On is currently permitted for your account.";
+$_LANG['sso']['disabled'] = "Single Sign-On is currently disabled for your account.";
+$_LANG['sso']['redirectafterlogin'] = "You will be redirected after login";
+
+$_LANG['oauth']['badTwoFactorAuthModule'] = "Bad Two-Factor Auth Module. Please contact support.";
+$_LANG['oauth']['permAccessNameAndEmail'] = "Access your name and email address";
+
+$_LANG['errorButTryAgain'] = "错误发生，请重试。";
