@@ -815,7 +815,7 @@ $_ADMINLANG['billableitems']['hour'] = "小时";
 $_ADMINLANG['billableitems']['invoiceitems'] = "账单条目";
 $_ADMINLANG['billableitems']['itemswillinvoice'] = "选中的条目将不会在下次执行cron时产生账单";
 $_ADMINLANG['billableitems']['invoiceimmediately'] = "立即产生账单";
-$_ADMINLANG['billableitems']['noclientsmsg'] = "You must <a href=\"clientsadd.php\">create a client</a> before you can add a billable item";
+$_ADMINLANG['billableitems']['noclientsmsg'] = "您必须在添加收费项目之前<a href=\"clientsadd.php\">创建一个客户</a>";
 # Quotes
 $_ADMINLANG['quotes']['title'] = "行情";
 $_ADMINLANG['quotes']['listall'] = "列出所有行情";
@@ -865,7 +865,7 @@ $_ADMINLANG['quotes']['adminonlynotesmsg'] = "(Private Notes)";
 # Support
 $_ADMINLANG['support']['title'] = "客服支持";
 $_ADMINLANG['support']['announcements'] = "站点公告";
-$_ADMINLANG['support']['downloads'] = "文件下载库";
+$_ADMINLANG['support']['downloads'] = "下载次数";
 $_ADMINLANG['support']['knowledgebase'] = "常见问题";
 $_ADMINLANG['support']['supporttickets'] = "用户问题";
 $_ADMINLANG['support']['opennewticket'] = "开个新服务单";

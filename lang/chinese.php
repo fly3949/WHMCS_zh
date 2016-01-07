@@ -1623,7 +1623,7 @@ $_LANG['noannouncements'] = "没有公告显示";
 $_LANG['kbsearchexplain'] = "有问题吗？在这里开始您的搜索。";
 $_LANG['readyforquestions'] = "我们已准备好回答您的问题";
 
-$_LANG['restrictedpage'] = "该页面是加密的";
+$_LANG['restrictedpage'] = "该页面是被加密的";
 $_LANG['enteremail'] = "输入邮箱";
 
 $_LANG['passwordtips'] = "<strong>如何设置一个高强度密码：</strong><br />同时使用大小写字符<br />至少使用括一个符号 (# $ ! % &amp; etc...)<br />不要用连续性文本";
@@ -1684,12 +1684,12 @@ $_LANG['domainsPendingTransfer'] = "等待转移";
 $_LANG['domainsExpiringInTheNext30Days'] = "30 天内过期";
 $_LANG['domainsExpiringInTheNext90Days'] = "90 天内过期";
 $_LANG['domainsExpiringInTheNext180Days'] = "180 天内过期";
-$_LANG['domainsExpiringInMoreThan180Days'] = "180 天以上过期";
+$_LANG['domainsExpiringInMoreThan180Days'] = "距过期还有180 天以上";
 
-$_LANG['kbtagcloud'] = "Tag Cloud";
+$_LANG['kbtagcloud'] = "标签云";
 
-$_LANG['cancellationrequestedexplanation'] = "There is an outstanding cancellation request for this product/service";
-$_LANG['cancellationrequested'] = "Cancellation Requested";
+$_LANG['cancellationrequestedexplanation'] = "这里有有此产品的杰出取消请求";
+$_LANG['cancellationrequested'] = "已请求取消";
 
 $_LANG['yourrecenttickets'] = "您近期的工单";
 
@@ -1705,27 +1705,27 @@ $_LANG['directDebitErrorConfirmAccNumber'] = "You must confirm your bank account
 $_LANG['directDebitErrorAccNumberMismatch'] = "Your bank account number & confirmation don't match";
 $_LANG['directDebitThanks'] = "Thank you for submitting your details. We will attempt to process your payment using the supplied details within the next few days, and contact you in case of any problems.";
 $_LANG['directDebitPleaseSubmit'] = "Please submit your bank account details below to pay by Direct Debit.";
-$_LANG['directDebitBankName'] = "Bank Name";
-$_LANG['directDebitAccountType'] = "Bank Account Type";
-$_LANG['directDebitABA'] = "Bank ABA Code";
-$_LANG['directDebitAccNumber'] = "Bank Account Number";
-$_LANG['directDebitConfirmAccNumber'] = "Confirm Account Number";
-$_LANG['directDebitSubmit'] = "Submit";
-$_LANG['directDebitChecking'] = "Checking";
-$_LANG['directDebitSavings'] = "Savings";
+$_LANG['directDebitBankName'] = "银行名";
+$_LANG['directDebitAccountType'] = "银行账户类型";
+$_LANG['directDebitABA'] = "银行 ABA 号码";
+$_LANG['directDebitAccNumber'] = "银行卡号";
+$_LANG['directDebitConfirmAccNumber'] = "确认银行卡号";
+$_LANG['directDebitSubmit'] = "提交";
+$_LANG['directDebitChecking'] = "检查中的";
+$_LANG['directDebitSavings'] = "已保存的";
 
-$_LANG['outOfStockProductRemoved'] = "An out of stock product was automatically removed from the cart";
+$_LANG['outOfStockProductRemoved'] = "一个缺货的产品已从购物车中自动删除";
 
-$_LANG['subaccountpermsquotes'] = "View & Accept Quotes";
+$_LANG['subaccountpermsquotes'] = "查看和接受报价";
 
 $_LANG['chooselanguage'] = "选择语言";
 
-$_LANG['success'] = "Success";
-$_LANG['error'] = "Error";
-$_LANG['print'] = "Print";
-$_LANG['invoicelineitems'] = "Invoice Items";
+$_LANG['success'] = "成功";
+$_LANG['error'] = "错误";
+$_LANG['print'] = "打印";
+$_LANG['invoicelineitems'] = "账单项目";
 
-$_LANG['quotelineitems'] = "Quote Items";
+$_LANG['quotelineitems'] = "报价项目";
 
 $_LANG['quoteproposal'] = "Proposal";
 $_LANG['quoteacceptagreetos'] = "To accept the quote, please confirm your acceptance of our terms of service.";
@@ -1757,12 +1757,12 @@ $_LANG['upgradeNotPossible'] = "Upgrading this product is not possible.  If you 
 
 $_LANG['hostingInfo'] = "产品信息";
 $_LANG['additionalInfo'] = "附加信息";
-$_LANG['resourceUsage'] = "Resource Usage";
-$_LANG['primaryIP'] = "Primary IP";
-$_LANG['assignedIPs'] = "Assigned IPs";
-$_LANG['diskSpace'] = "Disk Space";
-$_LANG['bandwidth'] = "Bandwidth";
-$_LANG['registered'] = "Registered";
+$_LANG['resourceUsage'] = "资源使用情况";
+$_LANG['primaryIP'] = "主IP";
+$_LANG['assignedIPs'] = "分配的IP";
+$_LANG['diskSpace'] = "储存空间";
+$_LANG['bandwidth'] = "流量";
+$_LANG['registered'] = "已注册";
 $_LANG['upgrade'] = "升/降级";
 
 $_LANG['downdoadsdesc'] = "您可以在这里下载一些工具";
@@ -1783,14 +1783,14 @@ $_LANG['moreDetails'] = "查看详询";
 
 $_LANG['clientHomeSearchKb'] = "在知识库里查找您的问题";
 
-$_LANG['whoisContactWarning'] = "It is important to keep your domain WHOIS contact information up-to-date at all times to avoid losing control of your domain.";
+$_LANG['whoisContactWarning'] = "及时更新您的域名WHOIS信息是很重要的，这样可以防止您的域名被恶意转让。";
 
-$_LANG['paymentstodate'] = "Payments to Date";
-$_LANG['balancedue'] = "Balance Due";
-$_LANG['submitpayment'] = "Submit Payment";
+$_LANG['paymentstodate'] = "付款时间";
+$_LANG['balancedue'] = "当前余额";
+$_LANG['submitpayment'] = "确认付款";
 
-$_LANG['domaincheckeravailable'] = "Available";
-$_LANG['domaincheckertransferable'] = "Available to Transfer";
+$_LANG['domaincheckeravailable'] = "可用";
+$_LANG['domaincheckertransferable'] = "可以转让";
 $_LANG['domaincheckertaken'] = "Taken";
 $_LANG['domaincheckeradding'] = "Adding";
 $_LANG['domaincheckeradded'] = "Added";
@@ -1800,28 +1800,28 @@ $_LANG['domaincheckerbulkplaceholder'] = "Enter up to 20 domain names.\nEach nam
 
 $_LANG['domainchecker']['suggestiontakentitle'] = "Domain Unavailable";
 $_LANG['domainchecker']['suggestiontakenmsg'] = "Unfortunately the domain you selected is unavailable. This can sometimes occur if the domain has been registered recently. Please go back and choose another domain.";
-$_LANG['domainchecker']['suggestiontakenchooseanother'] = "Choose another domain";
+$_LANG['domainchecker']['suggestiontakenchooseanother'] = "选择新域名";
 
-$_LANG['domainchecker']['alreadyincarttitle'] = "Already In Cart";
-$_LANG['domainchecker']['alreadyincartmsg'] = "This domain is already in your shopping cart. Proceed to checkout now to complete your purchase.";
-$_LANG['domainchecker']['alreadyincartcheckoutnow'] = "Checkout Now";
+$_LANG['domainchecker']['alreadyincarttitle'] = "已经添加到购物车了！";
+$_LANG['domainchecker']['alreadyincartmsg'] = "该域名已经在购物车里，请检查。";
+$_LANG['domainchecker']['alreadyincartcheckoutnow'] = "立即付款";
 
-$_LANG['genericerror']['title'] = "Oops, something went wrong!";
-$_LANG['genericerror']['msg'] = "Please try again and if the problem persists, please contact our support team.";
+$_LANG['genericerror']['title'] = "抱歉，出现错误";
+$_LANG['genericerror']['msg'] = "请再次尝试。如果问题再次出现，请联系技术支持。";
 
 # Licensing Addon
 
 $_LANG['licensingaddon']['mylicenses'] = "我的授权";
-$_LANG['licensingaddon']['latestdownload'] = "Latest Download";
+$_LANG['licensingaddon']['latestdownload'] = "最近下载";
 $_LANG['licensingaddon']['downloadnow'] = "立即下载";
 $_LANG['licensingaddon']['licensekey'] = "授权密钥";
-$_LANG['licensingaddon']['validdomains'] = "Valid Domains";
-$_LANG['licensingaddon']['validips'] = "Valid IPs";
-$_LANG['licensingaddon']['validdirectory'] = "Valid Directory";
+$_LANG['licensingaddon']['validdomains'] = "有效域名";
+$_LANG['licensingaddon']['validips'] = "有效IP";
+$_LANG['licensingaddon']['validdirectory'] = "有效记录";
 $_LANG['licensingaddon']['status'] = "授权状态";
 $_LANG['licensingaddon']['reissue'] = "Reissue";
 $_LANG['licensingaddon']['reissuestatusmsg'] = "The Valid Domain, IP and Directory will be detected & saved the next time the license is accessed.";
-$_LANG['licensingaddon']['manageLicense'] = "Manage License";
+$_LANG['licensingaddon']['manageLicense'] = "管理授权";
 
 $_LANG['affiliateWithdrawalSummary'] = "当累计到 :amountForWithdrawal 时，您可以申请提现";
 
@@ -1829,37 +1829,37 @@ $_LANG['projectManagement']['activeProjects'] = "Your Active Projects";
 
 # cPanel Module
 
-$_LANG['cPanel']['packageDomain'] = "Package/Domain";
-$_LANG['cPanel']['addonsExtras'] = "Addons & Extras";
-$_LANG['cPanel']['purchaseActivate'] = "Purchase & Activate";
+$_LANG['cPanel']['packageDomain'] = "域名";
+$_LANG['cPanel']['addonsExtras'] = "附加项目";
+$_LANG['cPanel']['purchaseActivate'] = "购买和激活";
 
-$_LANG['cPanel']['usageStats'] = "Usage Statistics";
-$_LANG['cPanel']['diskUsage'] = "Disk Usage";
-$_LANG['cPanel']['bandwidthUsage'] = "Bandwidth Usage";
-$_LANG['cPanel']['usageStatsBwLimitNear'] = "You are nearing your bandwidth limit.";
-$_LANG['cPanel']['usageStatsDiskLimitNear'] = "You are nearing your disk space limit.";
-$_LANG['cPanel']['usageUpgradeNow'] = "Upgrade Now";
-$_LANG['cPanel']['usageLastUpdated'] = "Last Updated";
+$_LANG['cPanel']['usageStats'] = "用量统计";
+$_LANG['cPanel']['diskUsage'] = "储存空间用量";
+$_LANG['cPanel']['bandwidthUsage'] = "流量用量";
+$_LANG['cPanel']['usageStatsBwLimitNear'] = "您的流量已接近上限";
+$_LANG['cPanel']['usageStatsDiskLimitNear'] = "您的储存空间已接近上线";
+$_LANG['cPanel']['usageUpgradeNow'] = "现在升级";
+$_LANG['cPanel']['usageLastUpdated'] = "最近升级";
 
-$_LANG['cPanel']['quickShortcuts'] = "Quick Shortcuts";
-$_LANG['cPanel']['emailAccounts'] = "Email Accounts";
-$_LANG['cPanel']['forwarders'] = "Forwarders";
-$_LANG['cPanel']['autoresponders'] = "Autoresponders";
-$_LANG['cPanel']['fileManager'] = "File Manager";
-$_LANG['cPanel']['backup'] = "Backup";
-$_LANG['cPanel']['subdomains'] = "Subdomains";
-$_LANG['cPanel']['addonDomains'] = "Addon Domains";
-$_LANG['cPanel']['cronJobs'] = "Cron Jobs";
-$_LANG['cPanel']['mysqlDatabases'] = "MySQL Databases";
+$_LANG['cPanel']['quickShortcuts'] = "快捷方式";
+$_LANG['cPanel']['emailAccounts'] = "邮箱账号";
+$_LANG['cPanel']['forwarders'] = "代理";
+$_LANG['cPanel']['autoresponders'] = "自动回复";
+$_LANG['cPanel']['fileManager'] = "文件管理";
+$_LANG['cPanel']['backup'] = "备份";
+$_LANG['cPanel']['subdomains'] = "子域";
+$_LANG['cPanel']['addonDomains'] = "绑定域名";
+$_LANG['cPanel']['cronJobs'] = "Cron 计划任务";
+$_LANG['cPanel']['mysqlDatabases'] = "MySQL 数据库";
 $_LANG['cPanel']['phpMyAdmin'] = "phpMyAdmin";
 $_LANG['cPanel']['awstats'] = "Awstats";
 
-$_LANG['cPanel']['createEmailAccount'] = "Quick Create Email Account";
-$_LANG['cPanel']['usernamePlaceholder'] = "Yourname";
-$_LANG['cPanel']['passwordPlaceholder'] = "Desired Password";
-$_LANG['cPanel']['create'] = "Create";
-$_LANG['cPanel']['emailAccountCreateSuccess'] = "Email account created successfully!";
-$_LANG['cPanel']['emailAccountCreateFailed'] = "Email account creation failed: ";
+$_LANG['cPanel']['createEmailAccount'] = "快速创建邮箱账号";
+$_LANG['cPanel']['usernamePlaceholder'] = "姓名";
+$_LANG['cPanel']['passwordPlaceholder'] = "设置密码";
+$_LANG['cPanel']['create'] = "创建";
+$_LANG['cPanel']['emailAccountCreateSuccess'] = "Email 账户成功创建！";
+$_LANG['cPanel']['emailAccountCreateFailed'] = "Email 账户创建失败: ";
 
 $_LANG['cPanel']['packageNotActive'] = "This hosting package is currently";
 $_LANG['cPanel']['statusPendingNotice'] = "You cannot begin using this hosting account until it is activated.";
@@ -1869,7 +1869,7 @@ $_LANG['cPanel']['billingOverview'] = "Billing Overview";
 
 $_LANG['liveHelp']['chatNow'] = "立即交谈";
 
-$_LANG['quotes'] = "Quotes";
+$_LANG['quotes'] = "行情";
 
 $_LANG['productMustBeActiveForModuleCmds'] = "Product must be active to perform this action";
 $_LANG['domainCannotBeManagedUnlessActive'] = "This domain is not currently active. Domains cannot be managed unless active.";
@@ -1892,12 +1892,12 @@ $_LANG['showMenu'] = "显示菜单";
 $_LANG['hideMenu'] = "隐藏菜单";
 
 $_LANG['from'] = "From";
-$_LANG['featuredProduct'] = "Most Popular";
+$_LANG['featuredProduct'] = "最热门";
 $_LANG['shoppingCartProductPerMonth'] = "<span>:price</span>/:countmo";
 $_LANG['shoppingCartProductPerYear'] = "<span>:price</span>/:countyr";
 
-$_LANG['orderForm']['findNewDomain'] = "Find your new domain name. Enter your name or keywords below to check availability.";
-$_LANG['orderForm']['transferExistingDomain'] = "Transfer your existing domain names to us and save.";
+$_LANG['orderForm']['findNewDomain'] = "查找您想要的域名。请输入域名关键字，我们将检查是否可用。";
+$_LANG['orderForm']['transferExistingDomain'] = "将您现有的域名转移给我们";
 $_LANG['orderForm']['www'] = "www.";
 $_LANG['orderForm']['check'] = "检查";
 $_LANG['orderForm']['returnToClientArea'] = "返回客户中心";
@@ -1990,16 +1990,16 @@ $_LANG['startingat'] = "开始于";
 $_LANG['yourdomainplaceholder'] = 'yourdomain';
 $_LANG['yourtldplaceholder'] = 'com';
 
-$_LANG['subaccountpermsproductsso'] = "Perform Single Sign-On";
+$_LANG['subaccountpermsproductsso'] = "SSO 单点登录";
 
-$_LANG['sso']['title'] = "Single Sign-On";
+$_LANG['sso']['title'] = "单点登录";
 $_LANG['sso']['summary'] = "Third party applications leverage the Single Sign-On functionality to provide direct access to your billing account without you having to re-authenticate.";
 $_LANG['sso']['disablenotice'] = "You may wish to disable this functionality if you provide access to any of your third party applications to users who you do not wish to be able to access your billing account.";
-$_LANG['sso']['enabled'] = "Single Sign-On is currently permitted for your account.";
-$_LANG['sso']['disabled'] = "Single Sign-On is currently disabled for your account.";
+$_LANG['sso']['enabled'] = "当前账户已启用单点登录";
+$_LANG['sso']['disabled'] = "当前账户已禁用单点登录";
 $_LANG['sso']['redirectafterlogin'] = "You will be redirected after login";
 
-$_LANG['oauth']['badTwoFactorAuthModule'] = "Bad Two-Factor Auth Module. Please contact support.";
+$_LANG['oauth']['badTwoFactorAuthModule'] = "双因素认证模块出错，请联系技术支持";
 $_LANG['oauth']['permAccessNameAndEmail'] = "Access your name and email address";
 
 $_LANG['errorButTryAgain'] = "错误发生，请重试。";
