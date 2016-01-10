@@ -1693,18 +1693,18 @@ $_LANG['cancellationrequested'] = "已请求取消";
 
 $_LANG['yourrecenttickets'] = "您近期的工单";
 
-$_LANG['domains']['deTermsDescription1'] = "To register a new domain, transfer or change registrant information the registrant must explicitly accept the .DE terms and conditions.";
-$_LANG['domains']['deTermsDescription2'] = "(See full text of .de terms and conditions: http://www.denic.de/en/bedingungen.html.)";
-$_LANG['directDebitPageTitle'] = "Direct Debit Payment";
-$_LANG['directDebitHeader'] = "Direct Debit Payment";
-$_LANG['directDebitErrorNoBankName'] = "You must enter your banks name";
-$_LANG['directDebitErrorAccountType'] = "You must select your bank account type";
-$_LANG['directDebitErrorNoABA'] = "You must enter your banks ABA code";
-$_LANG['directDebitErrorAccNumber'] = "You must enter your bank account number";
-$_LANG['directDebitErrorConfirmAccNumber'] = "You must confirm your bank account number";
-$_LANG['directDebitErrorAccNumberMismatch'] = "Your bank account number & confirmation don't match";
-$_LANG['directDebitThanks'] = "Thank you for submitting your details. We will attempt to process your payment using the supplied details within the next few days, and contact you in case of any problems.";
-$_LANG['directDebitPleaseSubmit'] = "Please submit your bank account details below to pay by Direct Debit.";
+$_LANG['domains']['deTermsDescription1'] = "注册、转让或变更域名注册信息，注册人必须接受.de域名的条款和条件。";
+$_LANG['domains']['deTermsDescription2'] = "(您可以查看注册.de域名的条款和条件: http://www.denic.de/en/bedingungen.html)";
+$_LANG['directDebitPageTitle'] = "直接借记";
+$_LANG['directDebitHeader'] = "直接借记";
+$_LANG['directDebitErrorNoBankName'] = "请输入银行名";
+$_LANG['directDebitErrorAccountType'] = "请选择银行账户类型";
+$_LANG['directDebitErrorNoABA'] = "请输入银行卡的 ABA 代码";
+$_LANG['directDebitErrorAccNumber'] = "请输入银行卡号";
+$_LANG['directDebitErrorConfirmAccNumber'] = "请再次输入银行卡号";
+$_LANG['directDebitErrorAccNumberMismatch'] = "您两次输入的银行卡号不同";
+$_LANG['directDebitThanks'] = "感谢您提交您的详细信息。我们将在未来几天内处理您的付款，如有问题，将与您联系。";
+$_LANG['directDebitPleaseSubmit'] = "请将您的银行账户明细提交给直接借记";
 $_LANG['directDebitBankName'] = "银行名";
 $_LANG['directDebitAccountType'] = "银行账户类型";
 $_LANG['directDebitABA'] = "银行 ABA 号码";
@@ -1727,24 +1727,24 @@ $_LANG['invoicelineitems'] = "账单项目";
 
 $_LANG['quotelineitems'] = "报价项目";
 
-$_LANG['quoteproposal'] = "Proposal";
-$_LANG['quoteacceptagreetos'] = "To accept the quote, please confirm your acceptance of our terms of service.";
-$_LANG['quoteacceptcontractwarning'] = "Please be aware that accepting a quote is considered entering into a contract and you will not be able to cancel once accepted.";
+$_LANG['quoteproposal'] = "建议";
+$_LANG['quoteacceptagreetos'] = "接受报价，请确认您接受我们的服务条款。";
+$_LANG['quoteacceptcontractwarning'] = "请注意，接受报价意味着签署合同，你将无法取消。";
 
 // Client alerts
-$_LANG['clientAlerts']['creditCardExpiring'] = "Your credit card :creditCardType-:creditCardLastFourDigits expires within :days days. Please update it at your earliest convenience.";
-$_LANG['clientAlerts']['domainsExpiringSoon'] = "You have :numberOfDomains domain(s) expiring within the next :days days.";
+$_LANG['clientAlerts']['creditCardExpiring'] = "你的信用卡将在 :days 天后的 :creditCardType-:creditCardLastFourDigits 到期。请在您方便的时候更新它。";
+$_LANG['clientAlerts']['domainsExpiringSoon'] = "你有 :numberOfDomains 个域名将在 :days 天内到期";
 $_LANG['clientAlerts']['invoicesUnpaid'] = "您目前有 :numberOfInvoices 个未付款的账单，请尽快支付。";
 $_LANG['clientAlerts']['invoicesOverdue'] = "您目前有 :numberOfInvoices 个过期账单，合计 :balanceDue. 请尽快支付，以免服务被取消。";
-$_LANG['clientAlerts']['creditBalance'] = "You have a credit balance of :creditBalance.";
+$_LANG['clientAlerts']['creditBalance'] = "你的信用额度 :creditBalance.";
 
 // Client homepage panels
 $_LANG['clientHomePanels']['unpaidInvoices'] = "未付款的账单";
 $_LANG['clientHomePanels']['unpaidInvoicesMsg'] = "您目前有 :numberOfInvoices 个未付款的账单，合计 :balanceDue. 请尽快支付。";
 $_LANG['clientHomePanels']['overdueInvoices'] = "过期的账单";
 $_LANG['clientHomePanels']['overdueInvoicesMsg'] = "您目前有 :numberOfInvoices 个过期账单，合计 :balanceDue. 请尽快支付，以免服务被取消。";
-$_LANG['clientHomePanels']['domainsExpiringSoon'] = "Domains Expiring Soon";
-$_LANG['clientHomePanels']['domainsExpiringSoonMsg'] = "You have :numberOfDomains domain(s) expiring within the next :days days. Renew them today for peace of mind.";
+$_LANG['clientHomePanels']['domainsExpiringSoon'] = "域名即将到期";
+$_LANG['clientHomePanels']['domainsExpiringSoonMsg'] = "你有 :numberOfDomains 个域名将在 :days 天后到期。请尽快续费。";
 $_LANG['clientHomePanels']['activeProductsServices'] = "您订购的产品";
 $_LANG['clientHomePanels']['activeProductsServicesNone'] = "噢，看来您还没有订购我们的产品呢。 <a href=\"cart.php\">来选一个吧？</a>.";
 $_LANG['clientHomePanels']['recentNews'] = "近期消息";
@@ -1753,7 +1753,7 @@ $_LANG['clientHomePanels']['recentSupportTickets'] = "最近的工单";
 $_LANG['clientHomePanels']['recentSupportTicketsNone'] = "没有工单。如果您需要帮助，您可以 <a href=\"submitticket.php\">提交一个工单</a>.";
 $_LANG['clientHomePanels']['affiliateSummary'] = "您已经通过推广赚到了 :commissionBalance。您需要再赚 :amountUntilWithdrawalLevel 才能提现。";
 
-$_LANG['upgradeNotPossible'] = "Upgrading this product is not possible.  If you believe you've reached this page in error, please notify our support department.  Otherwise, go back and double check your selection.";
+$_LANG['upgradeNotPossible'] = "升级这个产品是不可能的。如果您认为您的操作没有错误，请通知我们的支持部门。否则请仔细检查你的选择。";
 
 $_LANG['hostingInfo'] = "产品信息";
 $_LANG['additionalInfo'] = "附加信息";
@@ -1768,15 +1768,15 @@ $_LANG['upgrade'] = "升/降级";
 $_LANG['downdoadsdesc'] = "您可以在这里下载一些工具";
 
 $_LANG['doToday'] = "想要做些什么？";
-$_LANG['changeDomainNS'] = "Change the nameservers your domain points to";
-$_LANG['updateWhoisContact'] = "Update the WHOIS contact information for your domain";
-$_LANG['changeRegLock'] = "Change the registrar lock status for your domain";
-$_LANG['renewYourDomain'] = "Renew Your Domain";
+$_LANG['changeDomainNS'] = "改变域名服务器域名指向";
+$_LANG['updateWhoisContact'] = "更新您的域名的 WHOIS 联系信息";
+$_LANG['changeRegLock'] = "更改您的域名注册的锁定状态";
+$_LANG['renewYourDomain'] = "更新你的域名";
 
-$_LANG['oops'] = "Oops";
-$_LANG['goback'] = "Go Back";
+$_LANG['oops'] = "噢";
+$_LANG['goback'] = "返回";
 $_LANG['returnhome'] = "回到主页";
-$_LANG['blankCustomField'] = "(no value)";
+$_LANG['blankCustomField'] = "(空)";
 
 $_LANG['viewAll'] = "查看全部";
 $_LANG['moreDetails'] = "查看详询";
@@ -1791,15 +1791,15 @@ $_LANG['submitpayment'] = "确认付款";
 
 $_LANG['domaincheckeravailable'] = "可用";
 $_LANG['domaincheckertransferable'] = "可以转让";
-$_LANG['domaincheckertaken'] = "Taken";
-$_LANG['domaincheckeradding'] = "Adding";
-$_LANG['domaincheckeradded'] = "Added";
-$_LANG['domaincheckernomoresuggestions'] = "That's all the results we have for you! If you still haven't found what you're looking for, please try a different search term or keyword.";
-$_LANG['domaincheckerunabletooffertld'] = "Unfortunately we are unable to register this TLD at this time";
-$_LANG['domaincheckerbulkplaceholder'] = "Enter up to 20 domain names.\nEach name must be on a separate line.\n\nExamples:\nexample.com\nexample.net";
+$_LANG['domaincheckertaken'] = "已取走";
+$_LANG['domaincheckeradding'] = "添加中";
+$_LANG['domaincheckeradded'] = "已添加";
+$_LANG['domaincheckernomoresuggestions'] = "这就是我们为你查询所有结果。如果你还没有找到你想要的，请尝试一个不同的搜索词或关键字。";
+$_LANG['domaincheckerunabletooffertld'] = "抱歉，我们现在无法为您注册这个顶级域名";
+$_LANG['domaincheckerbulkplaceholder'] = "最多输入20个域名\n每个域名一行\n\n例如:\nexample.com\nexample.net";
 
-$_LANG['domainchecker']['suggestiontakentitle'] = "Domain Unavailable";
-$_LANG['domainchecker']['suggestiontakenmsg'] = "Unfortunately the domain you selected is unavailable. This can sometimes occur if the domain has been registered recently. Please go back and choose another domain.";
+$_LANG['domainchecker']['suggestiontakentitle'] = "域名不可用";
+$_LANG['domainchecker']['suggestiontakenmsg'] = "抱歉，你选择的域名不可用。可能该域名近期已被注册。请返回并选择另一个域名。";
 $_LANG['domainchecker']['suggestiontakenchooseanother'] = "选择新域名";
 
 $_LANG['domainchecker']['alreadyincarttitle'] = "已经添加到购物车了！";
@@ -1825,7 +1825,7 @@ $_LANG['licensingaddon']['manageLicense'] = "管理授权";
 
 $_LANG['affiliateWithdrawalSummary'] = "当累计到 :amountForWithdrawal 时，您可以申请提现";
 
-$_LANG['projectManagement']['activeProjects'] = "Your Active Projects";
+$_LANG['projectManagement']['activeProjects'] = "你的活跃的项目";
 
 # cPanel Module
 
