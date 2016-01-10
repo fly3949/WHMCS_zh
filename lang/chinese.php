@@ -5,7 +5,7 @@
  *
  * @author     Fly
  * @author     Bill
- * @link       https://github.com/fly3949/WHMCS6.1.1_zh
+ * @link       https://github.com/fly3949/WHMCS_zh
  * @link       https://github.com/billzhong/whmcs_lang_chinese
 */
 
@@ -426,7 +426,7 @@ $_LANG['invoicesoutstandinginvoices'] = "未完成的账单";
 $_LANG['invoicespaid'] = "已付款";
 $_LANG['invoicespaynow'] = "现在支付";
 $_LANG['invoicespayto'] = "支付给";
-$_LANG['invoicesrefunded'] = "退还";
+$_LANG['invoicesrefunded'] = "已退款";
 $_LANG['invoicesstatus'] = "状态";
 $_LANG['invoicessubtotal'] = "小计";
 $_LANG['invoicestax'] = "应付税款";
@@ -1688,7 +1688,7 @@ $_LANG['domainsExpiringInMoreThan180Days'] = "距过期还有180 天以上";
 
 $_LANG['kbtagcloud'] = "标签云";
 
-$_LANG['cancellationrequestedexplanation'] = "这里有有此产品的杰出取消请求";
+$_LANG['cancellationrequestedexplanation'] = "<b>已请求取消该产品</b>";
 $_LANG['cancellationrequested'] = "已请求取消";
 
 $_LANG['yourrecenttickets'] = "您近期的工单";
