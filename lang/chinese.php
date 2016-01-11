@@ -1861,32 +1861,32 @@ $_LANG['cPanel']['create'] = "创建";
 $_LANG['cPanel']['emailAccountCreateSuccess'] = "Email 账户成功创建！";
 $_LANG['cPanel']['emailAccountCreateFailed'] = "Email 账户创建失败: ";
 
-$_LANG['cPanel']['packageNotActive'] = "This hosting package is currently";
-$_LANG['cPanel']['statusPendingNotice'] = "You cannot begin using this hosting account until it is activated.";
-$_LANG['cPanel']['statusSuspendedNotice'] = "You cannot continue to use or manage this package until it is reactivated.";
+$_LANG['cPanel']['packageNotActive'] = "该主机套餐是目前是";
+$_LANG['cPanel']['statusPendingNotice'] = "产品激活后，你才能开始使用该主机帐户。";
+$_LANG['cPanel']['statusSuspendedNotice'] = "重新激活后，你才能继续使用或管理此套餐。";
 
-$_LANG['cPanel']['billingOverview'] = "Billing Overview";
+$_LANG['cPanel']['billingOverview'] = "结算概述";
 
 $_LANG['liveHelp']['chatNow'] = "立即交谈";
 
 $_LANG['quotes'] = "行情";
 
-$_LANG['productMustBeActiveForModuleCmds'] = "Product must be active to perform this action";
-$_LANG['domainCannotBeManagedUnlessActive'] = "This domain is not currently active. Domains cannot be managed unless active.";
+$_LANG['productMustBeActiveForModuleCmds'] = "产品必须被激活，才能执行此操作";
+$_LANG['domainCannotBeManagedUnlessActive'] = "域名未被激活。你只能管理已激活的域名。";
 
-$_LANG['actionRequiresAtLeastOneDomainSelected'] = 'Please select at least one domain to perform the selected action on.';
+$_LANG['actionRequiresAtLeastOneDomainSelected'] = '请至少选择一个域名来执行所选操作。';
 
-$_LANG['clientAreaProductDownloadsAvailable'] = "The following download items are available for your product/service";
-$_LANG['clientAreaProductAddonsAvailable'] = "Addons are available for your product/service. <a href=\"cart.php?gid=addons\">Click here to view &amp; order &raquo;</a>";
-$_LANG['clientAreaSecurityTwoFactorAuthRecommendation'] = "We strongly encourage you to enable Two-Factor Authentication for added security.";
-$_LANG['clientAreaSecurityNoSecurityQuestions'] = "Setting a security question and answer helps protect your account from unauthorized password resets and allows us to verify your identity when requesting account changes.";
-$_LANG['clientAreaSecuritySecurityQuestionOtherError'] = "The security question helps protect your account from unauthorized password resets and allows us to verify your identity when requesting account changes.";
+$_LANG['clientAreaProductDownloadsAvailable'] = "下面的下载项可用于您的产品 / 服务";
+$_LANG['clientAreaProductAddonsAvailable'] = "附加项可用于您的产品 / 服务。<a href=\"cart.php?gid=addons\"> 点击这里查看并订购 &raquo;</a>";
+$_LANG['clientAreaSecurityTwoFactorAuthRecommendation'] = "我们强烈建议您启用双因素身份验证以增加安全性。";
+$_LANG['clientAreaSecurityNoSecurityQuestions'] = "设置安全问题和答案可以帮助保护您的帐户免受未经授权的密码重置，并在请求更改帐户时验证您的身份。";
+$_LANG['clientAreaSecuritySecurityQuestionOtherError'] = "设置安全问题和答案可以帮助保护您的帐户免受未经授权的密码重置，并在请求更改帐户时验证您的身份。";
 
 $_LANG['billingAddress'] = "账单地址";
 
-$_LANG['noPasswordResetWhenLoggedIn'] = "You cannot request a password reset when logged in. Please logout to begin.";
+$_LANG['noPasswordResetWhenLoggedIn'] = "登录时无法重置密码，请先注销。";
 
-$_LANG['unableToLoadShoppingCart'] = "Unable to load your shopping cart. Please contact support.";
+$_LANG['unableToLoadShoppingCart'] = "无法加载您的购物车。请联系技术支持。";
 
 $_LANG['showMenu'] = "显示菜单";
 $_LANG['hideMenu'] = "隐藏菜单";
@@ -1960,27 +1960,27 @@ $_LANG['orderForm']['yes'] = "是";
 $_LANG['orderForm']['cancel'] = "取消";
 $_LANG['orderForm']['close'] = "关闭";
 $_LANG['orderForm']['totals'] = "合计";
-$_LANG['orderForm']['includedWithPlans'] = "Included With Every Plan";
-$_LANG['orderForm']['whatIsIncluded'] = "What is Included?";
-$_LANG['orderForm']['errorNoProductGroup'] = "Could not load any product groups.";
-$_LANG['orderForm']['errorNoProducts'] = "Product group does not contain any visible products";
+$_LANG['orderForm']['includedWithPlans'] = "被每个套餐包括";
+$_LANG['orderForm']['whatIsIncluded'] = "包含哪些内容？";
+$_LANG['orderForm']['errorNoProductGroup'] = "无法加载产品组。";
+$_LANG['orderForm']['errorNoProducts'] = "产品组不包含任何产品";
 
-$_LANG['cloudSlider']['feature01Title'] = "Maximum Server Uptime";
-$_LANG['cloudSlider']['feature01Description'] = "Server uptime is critical for all businesses - consider it the heart beat of hosting your business. File and databases servers, email and web servers are an indispensable part of most business processes, and downtimes have direct negative effects on productivity, sales, employee and customer satisfaction. That's why ensuring the maximum server uptime is so important to us - we want to make sure your business processes are running healthy so your customers are happy.";
-$_LANG['cloudSlider']['feature01DescriptionTwo'] = "By trusting us with your business needs, we promise you a 99.9% uptime on any services we provide, outside of any standard maintenance we may provide.";
-$_LANG['cloudSlider']['feature02Title'] = "World Wide Data Delivery";
-$_LANG['cloudSlider']['feature02Description'] = "Our services are powered by hundreds of servers and data centers located all over the world, so you can rest easy knowing that customers can access your website from anywhere. In addition, we provide monitoring tools to provide you with expert analytics - website traffic is an important step in improving your site's efficiency and popularity, as well as keeping track of where your visitors are coming from, what time of day they're visiting you, and how long they're staying. Our dedication to a global marketplace extends to domain registrations, as we offer the most popular TLD's for registration.";
-$_LANG['cloudSlider']['feature02DescriptionTwo'] = "Our dedication to customer support reaches across the globe as well. We are here to help you with your hosting in any way possible, and you can reach us via phone, email, or live chat.";
-$_LANG['cloudSlider']['feature03Title'] = "Top Tier Security";
-$_LANG['cloudSlider']['feature03Description'] = "Rest easy knowing that we provide 24/7 security monitoring and DDoS protection. You take protecting your customer's data seriously, and so do we. Our security team and safeguards are on the job all day, every day to provide the level of security needed in today's digital age.";
-$_LANG['cloudSlider']['feature03DescriptionTwo'] = "A wide range of security tools are at your disposal, including SSL certificates, firewall configuration, security monitoring services, VPN access, and more.";
+$_LANG['cloudSlider']['feature01Title'] = "服务器正常运行时间";
+$_LANG['cloudSlider']['feature01Description'] = "服务器正常运行时间是非常关键的——将它认为成托管业务的核心。文件、数据库、电子邮件和 Web 服务器的大多数业务流程中不可缺少的一部分，停机将对对生产、销售、员工和客户的满意度直接产生负面影响。这就是为什么确保服务器正常运行时间是对我们如此重要——我们要确保你的业务流程运行的正常，这样客户才会满意。";
+$_LANG['cloudSlider']['feature01DescriptionTwo'] = "为了让您信任我们，我们承诺您的服务正常运行时间在99.9％以上，额外服务除外。";
+$_LANG['cloudSlider']['feature02Title'] = "万维网数据交付";
+$_LANG['cloudSlider']['feature02Description'] = "我们的服务分布在多个位于世界各地的服务器和数据中心，这样你就可以高枕无忧，客户可以从任何地方访问你的网站。此外，我们提供监测工具，为您提供专业的分析——网站的流量是提高网站的效率和普及，以及跟踪您的访问者，让您知道访客集中在一天中什么时间，多少人正在访问，以及多久，他们的位置。我们努力把域名注册拓展到全球市场，因此我们提供了最流行的顶级域名的注册。";
+$_LANG['cloudSlider']['feature02DescriptionTwo'] = "我们竭诚为全球的客户服务到最好。我们会在这里尽可能地帮助您，你可以通过电话，电子邮件或在线聊天与我们联系。";
+$_LANG['cloudSlider']['feature03Title'] = "最顶级的安全保障";
+$_LANG['cloudSlider']['feature03Description'] = "您可以高枕无忧，因为我们提供全天候安全监控和 DDoS 防护。我们将尽全力保护你的数据当回事。我们的安全团队和保障将持续为您服务。";
+$_LANG['cloudSlider']['feature03DescriptionTwo'] = "我们有广泛的安全工具供您使用，包括 SSL 证书，防火墙配置，安全监控服务，VPN 接入等。";
 
-$_LANG['domainChecker.additionalPricingOptions'] = 'Additional Pricing Options For :domain';
+$_LANG['domainChecker.additionalPricingOptions'] = '其他定价选项对于 :domain';
 
 $_LANG['orderpaymenttermfree'] = "免费";
 
-$_LANG['cPanel']['usageStatsBwOverLimit'] = "You have exceeded your bandwidth limit.";
-$_LANG['cPanel']['usageStatsDiskOverLimit'] = "You have exceeded your disk space limit.";
+$_LANG['cPanel']['usageStatsBwOverLimit'] = "您已经超出了流量限制。";
+$_LANG['cPanel']['usageStatsDiskOverLimit'] = "您已经超出了磁盘空间限制。";
 
 $_LANG['insufficientstockmessage'] = "部分产品库存较低。添加到购物车的产品数量已经被调整。";
 
@@ -1993,13 +1993,13 @@ $_LANG['yourtldplaceholder'] = 'com';
 $_LANG['subaccountpermsproductsso'] = "SSO 单点登录";
 
 $_LANG['sso']['title'] = "单点登录";
-$_LANG['sso']['summary'] = "Third party applications leverage the Single Sign-On functionality to provide direct access to your billing account without you having to re-authenticate.";
-$_LANG['sso']['disablenotice'] = "You may wish to disable this functionality if you provide access to any of your third party applications to users who you do not wish to be able to access your billing account.";
+$_LANG['sso']['summary'] = "第三方应用程序可以利用了单点登录功能，直接访问您的帐户，您无需重新进行身份验证。";
+$_LANG['sso']['disablenotice'] = "您可能希望禁用此功能，如果您不希望第三方应用程序能够访问您的结算帐户。";
 $_LANG['sso']['enabled'] = "当前账户已启用单点登录";
 $_LANG['sso']['disabled'] = "当前账户已禁用单点登录";
-$_LANG['sso']['redirectafterlogin'] = "You will be redirected after login";
+$_LANG['sso']['redirectafterlogin'] = "您将在登陆后被重定向";
 
 $_LANG['oauth']['badTwoFactorAuthModule'] = "双因素认证模块出错，请联系技术支持";
-$_LANG['oauth']['permAccessNameAndEmail'] = "Access your name and email address";
+$_LANG['oauth']['permAccessNameAndEmail'] = "访问您的姓名和电子邮件地址";
 
 $_LANG['errorButTryAgain'] = "错误发生，请重试。";
