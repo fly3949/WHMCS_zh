@@ -2855,11 +2855,11 @@ $_ADMINLANG['supportticketdepts']['deptaddsuccess']  =  "部添加成功！";
 $_ADMINLANG['supportticketdepts']['deptaddsuccessdesc'] = "Remember you will need to assign any staff you want to be able to access the new department in <a href=\"configadmins.php\">Setup > Administrators</a> before it is visible";
 $_ADMINLANG['supportticketdepts']['changessavesuccess']  =  "保存修改成功！";
 $_ADMINLANG['supportticketdepts']['changessavesuccessdesc']  =  "已保存您的支持部门的变化。";
-$_ADMINLANG['supportticketdepts']['supportticketdeptsconfigheredesc']  =  "您可以在这里配置您的支持票部门。部门的电子邮件地址将被用于检测本部门收到的所有电子邮件，也将使用这个地址发送邮件。该功能将允许客户通过邮件回复工单。你可以通过下面的一种方式来打开它。";
-$_ADMINLANG['supportticketdepts']['ticketimportusingef']  =  "票务导入使用电子邮件转发";
-$_ADMINLANG['supportticketdepts']['ticketimportusingpop3imap']  =  "票务导入使用POP3导入（需要安装IMAP服务器上）";
+$_ADMINLANG['supportticketdepts']['supportticketdeptsconfigheredesc']  =  "您可以在这里配置您的支持部门。部门的电子邮件地址将被用于检测本部门收到的所有电子邮件，也将使用这个地址发送邮件。该功能将允许客户通过邮件回复工单。你可以通过下面的一种方式来打开它。";
+$_ADMINLANG['supportticketdepts']['ticketimportusingef']  =  "使用电子邮件转发导入";
+$_ADMINLANG['supportticketdepts']['ticketimportusingpop3imap']  =  "使用POP3导入（需要在服务器上安装IMAP）";
 $_ADMINLANG['supportticketdepts']['delsuredept']  =  "你确定要删除本部门吗？";
-$_ADMINLANG['supportticketdepts']['addnewdept']  =  "添加新的部";
+$_ADMINLANG['supportticketdepts']['addnewdept']  =  "添加新的部门";
 $_ADMINLANG['supportticketdepts']['editdept']  =  "编辑处";
 $_ADMINLANG['supportticketdepts']['delsurefielddata']  =  "你确定要删除这一领域，并与它相关的所有数据吗？";
 $_ADMINLANG['supportticketdepts']['deptname']  =  "部门名称";
@@ -3193,7 +3193,7 @@ $_ADMINLANG['whois']['unavailable']  =  "已注册的域％s";
 $_ADMINLANG['whois']['whois']  =  "WHOIS查询输出";
 
 # Config Order Statuses
-$_ADMINLANG['orderstatusconfig']['pagedesc']  =  "在这里你可以自定义你想使用的订单状态。 4个默认状态是确认中，活跃，欺诈和取消。它们不能不能被删除或改名。";
+$_ADMINLANG['orderstatusconfig']['pagedesc']  =  "在这里你可以自定义你想使用的订单状态。 4个默认状态是确认中，活跃，欺诈和取消。它们不能被删除或改名。";
 $_ADMINLANG['orderstatusconfig']['addnew']  =  "添加新的订单状态";
 $_ADMINLANG['orderstatusconfig']['edit']  =  "编辑订单状态";
 $_ADMINLANG['orderstatusconfig']['addtitle']  =  "状态添加成功";
