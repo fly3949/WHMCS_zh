@@ -903,7 +903,7 @@ $_ADMINLANG['quotes']['adminonlynotesmsg']  =  "(Private Notes)";
 # Support
 $_ADMINLANG['support']['title']  =  "客服支持";
 $_ADMINLANG['support']['announcements']  =  "站点公告";
-$_ADMINLANG['support']['downloads']  =  "下载次数";
+$_ADMINLANG['support']['downloads']  =  "下载库";
 $_ADMINLANG['support']['knowledgebase']  =  "常见问题";
 $_ADMINLANG['support']['supporttickets']  =  "用户问题";
 $_ADMINLANG['support']['opennewticket']  =  "开个新服务单";
